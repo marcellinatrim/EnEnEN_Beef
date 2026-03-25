@@ -1,810 +1,2321 @@
 <!DOCTYPE html>
+
 <html lang="ru">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Официальное Казино — Слоты, Быстрая Регистрация и Бонусы на Депозит</title>
-  <meta name="description" content="Официальное Казино: слоты с высоким темпом игры, быстрая регистрация, моментальный старт и щедрые бонусы на первый депозит. Запускайте автоматы и забирайте приветственные предложения." />
-  <link rel="canonical" href="https://example.com/" />
-  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1" />
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="Официальное Казино — Слоты, Быстрая Регистрация и Бонусы на Депозит" />
-  <meta property="og:description" content="Игровые автоматы, мгновенный старт, бонусы на депозит и быстрый вход в игру на одной странице." />
-  <meta property="og:url" content="https://example.com/" />
-  <meta property="og:site_name" content="Официальное Казино" />
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "Официальное Казино",
-    "url": "https://example.com/"
-  }
-  </script>
-
-  <style>
+<!-- ============================================================
+       META / SEO / БАЗОВЫЕ НАСТРОЙКИ
+       ============================================================ -->
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<!-- Robots -->
+<meta content="index, follow" name="robots"/>
+<!-- Title & Description (плейсхолдеры — заменить перед деплоем) -->
+<title>Beef Casino — официальный сайт, бонус 15 000 ₽ + 100 FS на первый депозит</title>
+<meta content="Заберите бонус за первый депозит — регистрация за 30 секунд. Beef Casino: слоты, live casino, быстрый вывод и удобный вход." name="description"/>
+<meta content="beef casino, биф казино, официальный сайт, регистрация, вход, бонус, слоты, игровые автоматы, вывод средств, live casino" name="keywords"/>
+<!-- Canonical -->
+<link href="https://beef.example/" rel="canonical"/>
+<!-- Open Graph (ВКонтакте, Telegram, Facebook) -->
+<meta content="website" property="og:type"/>
+<meta content="Beef Casino — официальный сайт, бонус 15 000 ₽ + 100 FS на первый депозит" property="og:title"/>
+<meta content="Заберите бонус за первый депозит — регистрация за 30 секунд. Beef Casino: слоты, live casino, быстрый вывод и удобный вход." property="og:description"/>
+<meta content="https://beef.example/" property="og:url"/>
+<meta content="https://beef.example/og-image.jpg" property="og:image"/>
+<meta content="1200" property="og:image:width"/>
+<meta content="630" property="og:image:height"/>
+<meta content="ru_RU" property="og:locale"/>
+<meta content="Beef Casino" property="og:site_name"/>
+<!-- Twitter Card -->
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Beef Casino — официальный сайт, бонус 15 000 ₽ + 100 FS на первый депозит" name="twitter:title"/>
+<meta content="Заберите бонус за первый депозит — регистрация за 30 секунд. Beef Casino: слоты, live casino, быстрый вывод и удобный вход." name="twitter:description"/>
+<meta content="https://beef.example/og-image.jpg" name="twitter:image"/>
+<!-- Favicons -->
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/favicon-32.png" rel="icon" sizes="32x32" type="image/png"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<!-- Preconnect для шрифтов (Google Fonts) -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;family=Barlow:ital,wght@0,300;0,400;0,600;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+<!-- ============================================================
+       SCHEMA.ORG JSON-LD МИКРОРАЗМЕТКА
+       ============================================================ -->
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://beef.example/#webpage",
+      "url": "https://beef.example/",
+      "name": "Beef Casino — официальный сайт, бонус 15 000 ₽ + 100 FS на первый депозит",
+      "description": "Заберите бонус за первый депозит — регистрация за 30 секунд. Beef Casino: слоты, live casino, быстрый вывод и удобный вход.",
+      "inLanguage": "ru-RU",
+      "isPartOf": {
+        "@id": "https://beef.example/#website"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Главная",
+            "item": "https://beef.example/"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://beef.example/#website",
+      "url": "https://beef.example/",
+      "name": "Beef Casino",
+      "publisher": {
+        "@id": "https://beef.example/#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://beef.example/#organization",
+      "name": "Beef Casino",
+      "url": "https://beef.example/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://beef.example/logo.png",
+        "width": 300,
+        "height": 80
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer support",
+        "email": "support@beef.example",
+        "availableLanguage": "Russian"
+      },
+      "sameAs": [
+        "https://beef.example/vk",
+        "https://beef.example/telegram"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Как зарегистрироваться и войти в личный кабинет Beef Casino?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Нажмите «Регистрация», укажите email или номер телефона, задайте пароль и подтвердите контакт по SMS или ссылке из письма. После этого вход в личный кабинет открывает кассу, бонусы, игровые автоматы, live casino и историю операций."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Как найти рабочее зеркало Beef Casino?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Если основной домен временно недоступен, используйте актуальное зеркало на сегодня или альтернативный адрес из официальных источников сервиса. Через рабочую ссылку доступны тот же аккаунт, баланс, бонусы и все игры."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Можно ли играть бесплатно без регистрации?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Да, часть автоматов поддерживает демо-режим. В таком формате можно открыть слот без пополнения счёта, посмотреть механику, бонусные функции и уже потом решить, стоит ли переходить на реальные деньги."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Как пополнить баланс в Beef Casino?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Пополнить баланс можно через СБП, банковские карты и доступные способы криптооплаты. Деньги обычно зачисляются быстро, а актуальные лимиты и методы всегда указаны в разделе кассы."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Как вывести выигрыш на карту или крипту?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Откройте кассу, выберите вывод средств, укажите карту или криптокошелёк и подтвердите заявку. Если аккаунт ещё не проверен, сервис может запросить верификацию профиля, после чего перевод обычно проходит в рамках заявленного времени."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Нужно ли проходить верификацию профиля?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Да, верификация может понадобиться при первом крупном выводе, смене платёжных реквизитов или проверке безопасности аккаунта. Статус проверки виден в кабинете, а список документов подсказывает сама площадка."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Можно ли играть с телефона и где скачать приложение?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Да, мобильная версия Beef Casino работает прямо в браузере смартфона. Для Android обычно доступен APK-файл через официальный сайт или зеркало, а на iPhone и iPad используется актуальный вариант входа и установки внутри сервиса."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Где найти промокод на фриспины и реально ли здесь выиграть?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Промокод на фриспины ищите в разделе акций, письмах от сервиса, уведомлениях или у поддержки. Выигрыши здесь реальны так же, как и в других казино с лицензией и проверенными провайдерами: итог зависит от игры, RTP, волатильности и вашей сессии."
+          }
+        }
+      ]
+    }
+  ]
+}</script>
+<!-- ============================================================
+       КРИТИЧЕСКИЙ CSS — ВСТРОЕН В <HEAD> ДЛЯ МАКСИМАЛЬНОГО LCP
+       Содержит: переменные, сброс, типографику, базовый лейаут
+       ============================================================ -->
+<style>/* ——— CSS-переменные (Design Tokens) ——— */
     :root {
-      --bg: #090b11;
-      --bg-soft: #101522;
-      --card: #121a2b;
-      --line: rgba(255,255,255,.08);
-      --text: #f5f7ff;
-      --muted: #b8c2df;
-      --accent: #ffd44d;
-      --accent-2: #65f1b9;
-      --danger: #ff6b57;
-      --shadow: 0 24px 60px rgba(0,0,0,.35);
-      --radius: 20px;
-      --container: 1180px;
+      /* Палитра: тёмный уголь + кровавый алый + золото */
+      --c-bg:          #0d0d0d;
+      --c-bg-alt:      #141414;
+      --c-bg-card:     #1a1a1a;
+      --c-bg-card-h:   #222222;
+      --c-surface:     #252525;
+      --c-border:      rgba(255,255,255,.07);
+
+      --c-primary:     #c8102e;        /* Beef Red */
+      --c-primary-h:   #e8122e;
+      --c-primary-glow:rgba(200,16,46,.35);
+      --c-gold:        #d4a232;
+      --c-gold-light:  #f0c050;
+
+      --c-text:        #f0ece6;
+      --c-text-muted:  #8a8276;
+      --c-text-dim:    #5a5550;
+
+      /* Типографика */
+      --f-display: 'Bebas Neue', 'Arial Narrow', sans-serif;
+      --f-body:    'Barlow', 'Helvetica Neue', sans-serif;
+
+      /* Отступы */
+      --gap-xs:   .4rem;
+      --gap-sm:   .8rem;
+      --gap-md:   1.6rem;
+      --gap-lg:   3.2rem;
+      --gap-xl:   6.4rem;
+
+      /* Скорости анимаций */
+      --ease-out: cubic-bezier(.16,1,.3,1);
+      --t-fast:   180ms;
+      --t-mid:    340ms;
+      --t-slow:   600ms;
+
+      /* Радиусы */
+      --r-sm:  6px;
+      --r-md:  12px;
+      --r-lg:  20px;
+
+      /* Макс. ширина контента */
+      --max-w: 1240px;
+      --gutter: clamp(1rem, 5vw, 2.5rem);
     }
 
-    * { box-sizing: border-box; }
-    html { scroll-behavior: smooth; }
-    body {
+    /* ——— Сброс и базовые стили ——— */
+    *, *::before, *::after {
+      box-sizing: border-box;
       margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, Arial, sans-serif;
-      color: var(--text);
-      background:
-        radial-gradient(circle at top left, rgba(255,212,77,.12), transparent 28%),
-        radial-gradient(circle at top right, rgba(101,241,185,.10), transparent 24%),
-        linear-gradient(180deg, #080a10 0%, #0d1220 100%);
-      line-height: 1.55;
+      padding: 0;
     }
 
+    html {
+      scroll-behavior: smooth;
+      font-size: 16px;
+      -webkit-text-size-adjust: 100%;
+    }
+
+    body {
+      background-color: var(--c-bg);
+      color: var(--c-text);
+      font-family: var(--f-body);
+      font-weight: 400;
+      line-height: 1.6;
+      overflow-x: hidden;
+      /* Текстурный шум поверх фона — добавляет органику */
+      background-image:
+        url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)' opacity='.028'/%3E%3C/svg%3E");
+    }
+
+    img, video { max-width: 100%; height: auto; display: block; }
     a { color: inherit; text-decoration: none; }
-    img { max-width: 100%; display: block; }
+    ul, ol { list-style: none; }
+    button { cursor: pointer; font-family: inherit; border: none; background: none; }
+    input, textarea { font-family: inherit; }
 
+    /* ——— Утилиты ——— */
     .container {
-      width: min(100% - 32px, var(--container));
-      margin: 0 auto;
+      width: 100%;
+      max-width: var(--max-w);
+      margin-inline: auto;
+      padding-inline: var(--gutter);
     }
 
-    .topbar {
-      position: sticky;
-      top: 0;
-      z-index: 20;
-      backdrop-filter: blur(18px);
-      background: rgba(8,10,16,.72);
-      border-bottom: 1px solid var(--line);
+    .visually-hidden {
+      position: absolute;
+      width: 1px; height: 1px;
+      overflow: hidden;
+      clip: rect(0,0,0,0);
+      white-space: nowrap;
     }
 
-    .topbar__inner {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 16px;
-      padding: 16px 0;
+    /* ——— Типографика ——— */
+    h1, h2, h3, h4, h5, h6 {
+      font-family: var(--f-display);
+      line-height: 1.05;
+      letter-spacing: .03em;
+      text-transform: uppercase;
     }
 
-    .brand {
+    h1 { font-size: clamp(3.2rem, 10vw, 8rem); }
+    h2 { font-size: clamp(2rem,  6vw, 4.4rem); }
+    h3 { font-size: clamp(1.4rem, 3vw, 2.2rem); }
+    h4 { font-size: clamp(1.1rem, 2vw, 1.6rem); }
+
+    /* ——— Кнопки ——— */
+    .btn {
       display: inline-flex;
       align-items: center;
-      gap: 12px;
-      font-weight: 800;
-      letter-spacing: .02em;
+      gap: var(--gap-sm);
+      padding: .85em 2em;
+      font-family: var(--f-display);
+      font-size: 1.1rem;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      border-radius: var(--r-sm);
+      transition: transform var(--t-fast) var(--ease-out),
+                  box-shadow var(--t-mid) var(--ease-out),
+                  background-color var(--t-fast);
+      user-select: none;
     }
 
-    .brand__mark {
-      width: 42px;
-      height: 42px;
-      display: grid;
-      place-items: center;
-      border-radius: 14px;
-      background: linear-gradient(135deg, var(--accent), #ff8b38);
-      color: #111;
-      font-weight: 900;
-      box-shadow: var(--shadow);
+    .btn:focus-visible {
+      outline: 2px solid var(--c-primary);
+      outline-offset: 3px;
     }
 
-    .topbar__actions {
-      display: flex;
-      align-items: center;
-      gap: 12px;
+    .btn--primary {
+      background: var(--c-primary);
+      color: #fff;
+      box-shadow: 0 0 0 0 var(--c-primary-glow);
     }
-
-    .button,
-    .button--ghost {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      min-height: 52px;
-      padding: 0 22px;
-      border-radius: 16px;
-      font-weight: 800;
-      transition: transform .2s ease, box-shadow .2s ease, background .2s ease, border-color .2s ease;
-      will-change: transform;
+    .btn--primary:hover {
+      background: var(--c-primary-h);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 32px var(--c-primary-glow);
     }
+    .btn--primary:active { transform: translateY(0); }
 
-    .button {
-      color: #111;
-      background: linear-gradient(135deg, var(--accent), #ffaf44);
-      box-shadow: 0 18px 34px rgba(255, 175, 68, .28);
+    .btn--ghost {
+      background: transparent;
+      color: var(--c-text);
+      border: 1px solid var(--c-border);
     }
-
-    .button--ghost {
-      border: 1px solid rgba(255,255,255,.12);
+    .btn--ghost:hover {
+      border-color: rgba(255,255,255,.3);
       background: rgba(255,255,255,.04);
-      color: var(--text);
-    }
-
-    .button:hover,
-    .button--ghost:hover {
       transform: translateY(-2px);
     }
 
+    /* ——— Разделитель секций ——— */
+    .section-label {
+      display: inline-block;
+      font-family: var(--f-body);
+      font-size: .7rem;
+      font-weight: 700;
+      letter-spacing: .25em;
+      text-transform: uppercase;
+      color: var(--c-primary);
+      margin-bottom: var(--gap-sm);
+    }
+
+    /* ——— Анимации появления ——— */
+    .reveal {
+      opacity: 0;
+      transform: translateY(28px);
+      transition: opacity var(--t-slow) var(--ease-out),
+                  transform var(--t-slow) var(--ease-out);
+    }
+    .reveal.is-visible {
+      opacity: 1;
+      transform: none;
+    }
+    .reveal-delay-1 { transition-delay: 100ms; }
+    .reveal-delay-2 { transition-delay: 200ms; }
+    .reveal-delay-3 { transition-delay: 300ms; }
+    .reveal-delay-4 { transition-delay: 400ms; }
+  
+
+
+    /* ——— HEADER ——— */
+    .site-header {
+      position: fixed;
+      inset: 0 0 auto;
+      z-index: 100;
+      background: rgba(13,13,13,.92);
+      backdrop-filter: blur(14px) saturate(1.4);
+      -webkit-backdrop-filter: blur(14px) saturate(1.4);
+      border-bottom: 1px solid var(--c-border);
+      transition: box-shadow var(--t-mid);
+    }
+    .site-header.is-scrolled {
+      box-shadow: 0 4px 40px rgba(0,0,0,.5);
+    }
+
+    .header__inner {
+      display: flex;
+      align-items: center;
+      gap: var(--gap-md);
+      height: 68px;
+    }
+
+    .header__logo { flex-shrink: 0; }
+    .logo-text {
+      font-family: var(--f-display);
+      font-size: 2rem;
+      letter-spacing: .1em;
+      color: var(--c-text);
+      transition: color var(--t-fast);
+    }
+    .logo-text:hover { color: var(--c-primary); }
+
+    .header__nav { margin-inline: auto; }
+    .nav__list {
+      display: flex;
+      gap: var(--gap-md);
+    }
+    .nav__link {
+      font-size: .875rem;
+      font-weight: 600;
+      letter-spacing: .05em;
+      text-transform: uppercase;
+      color: var(--c-text-muted);
+      transition: color var(--t-fast);
+      padding-block: .5em;
+      position: relative;
+    }
+    .nav__link::after {
+      content: '';
+      position: absolute;
+      bottom: 0; left: 0;
+      width: 0; height: 2px;
+      background: var(--c-primary);
+      transition: width var(--t-mid) var(--ease-out);
+    }
+    .nav__link:hover { color: var(--c-text); }
+    .nav__link:hover::after { width: 100%; }
+
+    .header__cta {
+      display: flex;
+      gap: var(--gap-sm);
+    }
+    .btn--sm { padding: .55em 1.3em; font-size: .9rem; }
+
+    /* Бургер */
+    .header__burger {
+      display: none;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 28px; height: 20px;
+      padding: 0;
+      flex-shrink: 0;
+    }
+    .burger__bar {
+      display: block;
+      width: 100%; height: 2px;
+      background: var(--c-text);
+      border-radius: 2px;
+      transition: transform var(--t-mid) var(--ease-out),
+                  opacity var(--t-mid);
+    }
+    .header__burger.is-open .burger__bar:nth-child(1) { transform: translateY(9px) rotate(45deg); }
+    .header__burger.is-open .burger__bar:nth-child(2) { opacity: 0; }
+    .header__burger.is-open .burger__bar:nth-child(3) { transform: translateY(-9px) rotate(-45deg); }
+
+    /* Мобильное меню */
+    .mobile-menu {
+      display: none;
+      position: absolute;
+      inset: 68px 0 auto;
+      background: rgba(13,13,13,.97);
+      border-bottom: 1px solid var(--c-border);
+      padding: var(--gap-lg) var(--gutter);
+    }
+    .mobile-menu.is-open { display: block; }
+    .mobile-menu__list { display: flex; flex-direction: column; gap: var(--gap-md); margin-bottom: var(--gap-lg); }
+    .mobile-menu__link {
+      font-family: var(--f-display);
+      font-size: 1.8rem;
+      letter-spacing: .08em;
+      color: var(--c-text-muted);
+      transition: color var(--t-fast);
+    }
+    .mobile-menu__link:hover { color: var(--c-primary); }
+    .mobile-menu__cta { display: flex; flex-direction: column; gap: var(--gap-sm); }
+    .btn--full { width: 100%; justify-content: center; }
+
+    /* ——— HERO ——— */
     .hero {
-      padding: 56px 0 28px;
+      position: relative;
+      min-height: 100svh;
+      display: flex;
+      align-items: center;
+      padding-block: calc(68px + var(--gap-xl)) var(--gap-xl);
+      overflow: hidden;
     }
 
-    .hero__grid {
-      display: grid;
-      grid-template-columns: 1.15fr .85fr;
-      gap: 24px;
-      align-items: stretch;
+    .hero__bg {
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
     }
-
-    .hero__content,
-    .hero__stats {
-      background: linear-gradient(180deg, rgba(255,255,255,.05), rgba(255,255,255,.02));
-      border: 1px solid var(--line);
-      border-radius: 28px;
-      box-shadow: var(--shadow);
+    .hero__bg-glow {
+      position: absolute;
+      border-radius: 50%;
+      filter: blur(120px);
+      opacity: .25;
+    }
+    .hero__bg-glow--1 {
+      width: 600px; height: 600px;
+      background: var(--c-primary);
+      top: -200px; right: -100px;
+    }
+    .hero__bg-glow--2 {
+      width: 400px; height: 400px;
+      background: var(--c-gold);
+      bottom: -100px; left: -150px;
+      opacity: .1;
+    }
+    .hero__bg-grid {
+      position: absolute;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(255,255,255,.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,.03) 1px, transparent 1px);
+      background-size: 64px 64px;
+      mask-image: radial-gradient(ellipse 80% 80% at 50% 0%, black, transparent);
     }
 
     .hero__content {
-      padding: 36px;
       position: relative;
-      overflow: hidden;
+      z-index: 2;
+      max-width: 700px;
     }
 
-    .hero__content::before {
-      content: "";
-      position: absolute;
-      inset: auto -60px -60px auto;
-      width: 220px;
-      height: 220px;
-      border-radius: 50%;
-      background: radial-gradient(circle, rgba(255,212,77,.24), transparent 70%);
-      pointer-events: none;
-    }
-
-    .eyebrow {
+    .hero__badge {
       display: inline-flex;
       align-items: center;
-      gap: 10px;
-      min-height: 38px;
-      padding: 0 14px;
-      border-radius: 999px;
-      background: rgba(255,255,255,.06);
-      border: 1px solid var(--line);
-      color: var(--accent);
-      font-weight: 800;
-      letter-spacing: .02em;
-      margin-bottom: 18px;
+      gap: var(--gap-sm);
+      padding: .4em 1em;
+      background: rgba(200,16,46,.12);
+      border: 1px solid rgba(200,16,46,.3);
+      border-radius: 100px;
+      font-size: .8rem;
+      font-weight: 700;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      color: var(--c-primary);
+      margin-bottom: var(--gap-md);
+    }
+    .badge__dot {
+      width: 6px; height: 6px;
+      background: var(--c-primary);
+      border-radius: 50%;
+      animation: blink 1.8s ease-in-out infinite;
+    }
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: .2; }
     }
 
-    h1, h2, h3 { margin: 0; line-height: 1.1; }
-    h1 {
-      font-size: clamp(34px, 5vw, 62px);
-      font-weight: 900;
-      letter-spacing: -.03em;
-      max-width: 900px;
+    .hero__title {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: var(--gap-md);
+    }
+    .hero__title-line { display: block; }
+.hero__title-line:nth-child(2),
+    .hero__title-line:nth-child(3) {
+      font-size: .48em;
+      line-height: 1.08;
+    }
+    .hero__title-accent {
+      color: var(--c-primary);
+      text-shadow: 0 0 60px var(--c-primary-glow);
     }
 
-    .hero__lead {
-      max-width: 760px;
-      margin: 18px 0 0;
-      color: var(--muted);
-      font-size: clamp(17px, 2vw, 20px);
+    .hero__subtitle {
+      font-size: clamp(1rem, 2vw, 1.2rem);
+      color: var(--c-text-muted);
+      max-width: 520px;
+      margin-bottom: var(--gap-lg);
     }
 
-    .hero__cta {
+    .hero__actions {
       display: flex;
       flex-wrap: wrap;
-      gap: 14px;
-      margin-top: 28px;
+      gap: var(--gap-sm);
+      margin-bottom: var(--gap-xl);
     }
+    .btn--lg { padding: 1em 2.4em; font-size: 1.2rem; }
 
-    .hero__points {
-      display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 14px;
-      margin-top: 28px;
-    }
-
-    .point {
-      padding: 18px;
-      border-radius: 18px;
-      background: rgba(255,255,255,.04);
-      border: 1px solid var(--line);
-    }
-
-    .point strong {
-      display: block;
-      font-size: 20px;
-      margin-bottom: 6px;
-    }
-
-    .hero__stats {
-      padding: 26px;
-      display: grid;
-      gap: 16px;
-    }
-
-    .panel {
-      padding: 20px;
-      border-radius: 20px;
-      background: rgba(9,11,17,.68);
-      border: 1px solid var(--line);
-    }
-
-    .panel h2 {
-      font-size: 22px;
-      margin-bottom: 14px;
-    }
-
-    .offer {
-      display: grid;
-      gap: 12px;
-    }
-
-    .offer__badge {
-      display: inline-flex;
-      width: fit-content;
-      min-height: 34px;
-      align-items: center;
-      padding: 0 12px;
-      border-radius: 999px;
-      background: rgba(101,241,185,.12);
-      color: var(--accent-2);
-      font-weight: 800;
-      border: 1px solid rgba(101,241,185,.2);
-    }
-
-    .offer__title {
-      font-size: clamp(26px, 3vw, 40px);
-      font-weight: 900;
-      letter-spacing: -.03em;
-    }
-
-    .offer__desc {
-      color: var(--muted);
-      margin: 0;
-    }
-
-    .offer__list,
-    .benefits__list,
-    .faq__list {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-      display: grid;
-      gap: 10px;
-    }
-
-    .offer__list li,
-    .benefits__list li {
-      position: relative;
-      padding-left: 18px;
-      color: var(--text);
-    }
-
-    .offer__list li::before,
-    .benefits__list li::before {
-      content: "";
-      position: absolute;
-      left: 0;
-      top: .65em;
-      width: 8px;
-      height: 8px;
-      border-radius: 50%;
-      background: var(--accent);
-      box-shadow: 0 0 0 5px rgba(255,212,77,.1);
-    }
-
-    section {
-      padding: 28px 0;
-    }
-
-    .section-head {
+    .hero__trust {
       display: flex;
-      align-items: end;
-      justify-content: space-between;
-      gap: 20px;
-      margin-bottom: 18px;
-    }
-
-    .section-head p {
-      max-width: 720px;
-      color: var(--muted);
-      margin: 8px 0 0;
-    }
-
-    .grid-3,
-    .grid-4 {
-      display: grid;
-      gap: 18px;
-    }
-
-    .grid-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-    .grid-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
-
-    .card {
-      padding: 24px;
-      border-radius: var(--radius);
-      background: linear-gradient(180deg, rgba(255,255,255,.05), rgba(255,255,255,.025));
-      border: 1px solid var(--line);
-      box-shadow: var(--shadow);
-      height: 100%;
-    }
-
-    .card__kicker {
-      display: inline-flex;
-      min-height: 32px;
+      flex-wrap: wrap;
       align-items: center;
-      padding: 0 10px;
-      border-radius: 999px;
-      background: rgba(255,255,255,.06);
-      color: var(--accent);
-      font-size: 13px;
-      font-weight: 800;
-      margin-bottom: 14px;
+      gap: var(--gap-md);
+    }
+    .trust-item { text-align: left; }
+    .trust-item__value {
+      display: block;
+      font-family: var(--f-display);
+      font-size: 2rem;
+      color: var(--c-text);
+      line-height: 1;
+    }
+    .trust-item__label {
+      font-size: .75rem;
+      font-weight: 600;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      color: var(--c-text-muted);
+    }
+    .trust-divider {
+      width: 1px; height: 36px;
+      background: var(--c-border);
     }
 
-    .card h3 {
-      font-size: 22px;
-      margin-bottom: 10px;
-    }
-
-    .card p {
-      margin: 0;
-      color: var(--muted);
-    }
-
-    .slots {
-      display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 18px;
-    }
-
-    .slot {
-      position: relative;
-      overflow: hidden;
-      min-height: 240px;
-      padding: 22px;
-      border-radius: 24px;
-      border: 1px solid var(--line);
-      background:
-        radial-gradient(circle at top right, rgba(255,212,77,.18), transparent 28%),
-        linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.025));
-      box-shadow: var(--shadow);
-    }
-
-    .slot::after {
-      content: "";
+    .hero__image-wrap {
       position: absolute;
-      right: -30px;
-      bottom: -30px;
-      width: 120px;
-      height: 120px;
-      border-radius: 50%;
-      background: radial-gradient(circle, rgba(101,241,185,.14), transparent 70%);
+      right: calc(-1 * var(--gutter) + 5%);
+      bottom: 0;
+      width: 45%;
+      max-width: 560px;
+      z-index: 1;
       pointer-events: none;
     }
+    .hero__image {
+      width: 100%;
+      object-fit: contain;
+    }
 
-    .slot__top {
+    .hero__scroll {
+      position: absolute;
+      bottom: var(--gap-lg);
+      left: 50%;
+      transform: translateX(-50%);
       display: flex;
-      justify-content: space-between;
-      gap: 12px;
+      flex-direction: column;
+      align-items: center;
+      gap: var(--gap-xs);
+      color: var(--c-text-muted);
+      font-size: .75rem;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      transition: color var(--t-fast);
+      animation: bounceY 2.4s ease-in-out infinite;
+    }
+    .hero__scroll:hover { color: var(--c-text); }
+    @keyframes bounceY {
+      0%, 100% { transform: translateX(-50%) translateY(0); }
+      50%       { transform: translateX(-50%) translateY(6px); }
+    }
+
+    /* ——— СЕКЦИИ — общие паттерны ——— */
+    section {
+      padding-block: clamp(4rem, 10vw, 8rem);
+    }
+
+    .section-header {
+      max-width: 600px;
+      margin-bottom: var(--gap-xl);
+    }
+    .section-title {
+      margin-bottom: var(--gap-sm);
+    }
+    .section-desc {
+      font-size: 1.05rem;
+      color: var(--c-text-muted);
+      line-height: 1.7;
+    }
+
+    /* ——— FEATURES ——— */
+    .features { background: var(--c-bg-alt); }
+
+    .features__grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: var(--gap-md);
+    }
+
+    .feature-card {
+      background: var(--c-bg-card);
+      border: 1px solid var(--c-border);
+      border-radius: var(--r-md);
+      padding: var(--gap-lg);
+      transition: background var(--t-mid), border-color var(--t-mid), transform var(--t-mid) var(--ease-out);
+    }
+    .feature-card:hover {
+      background: var(--c-bg-card-h);
+      border-color: rgba(200,16,46,.3);
+      transform: translateY(-4px);
+    }
+
+    .feature-card__icon {
+      width: 56px; height: 56px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: rgba(200,16,46,.1);
+      border-radius: var(--r-sm);
+      color: var(--c-primary);
+      margin-bottom: var(--gap-md);
+    }
+    .feature-card__title {
+      font-size: 1.3rem;
+      margin-bottom: var(--gap-sm);
+    }
+    .feature-card__text {
+      font-size: .9rem;
+      color: var(--c-text-muted);
+      line-height: 1.65;
+    }
+
+    /* ——— CATALOG ——— */
+    .catalog { background: var(--c-bg); }
+
+    /* Табы */
+    .catalog__tabs { margin-bottom: var(--gap-lg); }
+    .tabs__list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--gap-sm);
+    }
+    .tab-btn {
+      padding: .5em 1.4em;
+      font-size: .875rem;
+      font-weight: 700;
+      letter-spacing: .06em;
+      text-transform: uppercase;
+      color: var(--c-text-muted);
+      border: 1px solid var(--c-border);
+      border-radius: 100px;
+      transition: color var(--t-fast), border-color var(--t-fast), background var(--t-fast);
+    }
+    .tab-btn:hover,
+    .tab-btn.is-active {
+      color: var(--c-text);
+      border-color: var(--c-primary);
+      background: rgba(200,16,46,.12);
+    }
+
+    /* Плитка товаров */
+    .catalog__grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: var(--gap-md);
+      margin-bottom: var(--gap-lg);
+    }
+
+    .product-card {
+      background: var(--c-bg-card);
+      border: 1px solid var(--c-border);
+      border-radius: var(--r-md);
+      overflow: hidden;
+      transition: border-color var(--t-mid), transform var(--t-mid) var(--ease-out);
+    }
+    .product-card:hover {
+      border-color: rgba(200,16,46,.4);
+      transform: translateY(-4px);
+    }
+    .product-card__link { display: flex; flex-direction: column; height: 100%; }
+
+    .product-card__media {
+      position: relative;
+      aspect-ratio: 16/10;
+      overflow: hidden;
+      background: var(--c-surface);
+    }
+    .product-card__img {
+      width: 100%; height: 100%;
+      object-fit: cover;
+      transition: transform var(--t-slow) var(--ease-out);
+    }
+    .product-card:hover .product-card__img { transform: scale(1.05); }
+
+    .product-card__badge {
+      position: absolute;
+      top: var(--gap-sm);
+      right: var(--gap-sm);
+      padding: .25em .7em;
+      font-family: var(--f-display);
+      font-size: .75rem;
+      letter-spacing: .08em;
+      background: var(--c-primary);
+      color: #fff;
+      border-radius: var(--r-sm);
+    }
+    .product-card__badge--new { background: var(--c-gold); color: #000; }
+
+    .product-card__body {
+      flex: 1;
+      padding: var(--gap-md);
+      display: flex;
+      flex-direction: column;
+    }
+    .product-card__title {
+      font-size: 1.1rem;
+      margin-bottom: var(--gap-xs);
+    }
+    .product-card__meta {
+      font-size: .85rem;
+      color: var(--c-text-muted);
+      flex: 1;
+      margin-bottom: var(--gap-md);
+    }
+    .product-card__cta {
+      font-size: .85rem;
+      font-weight: 700;
+      letter-spacing: .06em;
+      text-transform: uppercase;
+      color: var(--c-primary);
+      transition: letter-spacing var(--t-fast);
+    }
+    .product-card:hover .product-card__cta { letter-spacing: .1em; }
+
+    .catalog__more { text-align: center; }
+
+    /* ——— BONUSES ——— */
+    .bonuses {
+      position: relative;
+      background: var(--c-bg-alt);
+      overflow: hidden;
+    }
+    .bonuses__bg {
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+    }
+    .bonuses__bg-glow {
+      position: absolute;
+      width: 800px; height: 600px;
+      background: radial-gradient(ellipse, rgba(200,16,46,.15), transparent 70%);
+      top: 50%; left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .bonuses__inner {
+      position: relative;
+      z-index: 2;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: clamp(2rem, 6vw, 6rem);
+      align-items: center;
+    }
+
+    .bonuses__list { margin-block: var(--gap-lg); display: flex; flex-direction: column; gap: var(--gap-md); }
+    .bonuses__item {
+      display: flex;
+      gap: var(--gap-md);
       align-items: flex-start;
     }
-
-    .slot__tag {
-      display: inline-flex;
-      min-height: 30px;
-      align-items: center;
-      padding: 0 10px;
-      border-radius: 999px;
-      background: rgba(255,255,255,.08);
-      font-size: 12px;
-      font-weight: 800;
-      color: #fff;
+    .bonuses__item-icon {
+      font-size: 1.8rem;
+      flex-shrink: 0;
+      line-height: 1;
+    }
+    .bonuses__item-title {
+      font-size: 1.1rem;
+      margin-bottom: var(--gap-xs);
+    }
+    .bonuses__item-desc {
+      font-size: .875rem;
+      color: var(--c-text-muted);
     }
 
-    .slot__rtp {
-      font-size: 14px;
-      font-weight: 800;
-      color: var(--accent-2);
-    }
-
-    .slot h3 {
-      margin-top: 34px;
-      font-size: 26px;
-    }
-
-    .slot p {
-      margin: 12px 0 0;
-      color: var(--muted);
-      max-width: 90%;
-    }
-
-    .steps {
-      display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 18px;
-      counter-reset: step;
-    }
-
-    .step {
+    /* Карточка бонуса */
+    .bonus-card {
+      background: linear-gradient(135deg, #1e0a10 0%, #2d1015 50%, #1a0a10 100%);
+      border: 1px solid rgba(200,16,46,.4);
+      border-radius: var(--r-lg);
+      padding: var(--gap-lg);
+      box-shadow:
+        0 0 0 1px rgba(200,16,46,.1),
+        0 40px 80px rgba(0,0,0,.5),
+        inset 0 1px 0 rgba(255,255,255,.06);
       position: relative;
-      padding: 24px 24px 24px 78px;
-      border-radius: var(--radius);
-      border: 1px solid var(--line);
-      background: linear-gradient(180deg, rgba(255,255,255,.05), rgba(255,255,255,.02));
-      box-shadow: var(--shadow);
+      overflow: hidden;
     }
-
-    .step::before {
-      counter-increment: step;
-      content: counter(step);
+    .bonus-card::before {
+      content: '';
       position: absolute;
-      left: 24px;
-      top: 24px;
-      width: 40px;
-      height: 40px;
-      display: grid;
-      place-items: center;
-      border-radius: 12px;
-      background: linear-gradient(135deg, var(--accent), #ff9551);
-      color: #111;
-      font-weight: 900;
+      inset: 0;
+      background: radial-gradient(ellipse 80% 60% at 50% 0%, rgba(200,16,46,.15), transparent);
     }
-
-    .cta-band {
-      padding: 30px;
-      border-radius: 28px;
-      border: 1px solid var(--line);
-      background:
-        radial-gradient(circle at top left, rgba(255,212,77,.14), transparent 25%),
-        linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.025));
-      box-shadow: var(--shadow);
-      display: grid;
-      grid-template-columns: 1.2fr .8fr;
-      gap: 24px;
-      align-items: center;
-    }
-
-    .cta-band p {
-      margin: 12px 0 0;
-      color: var(--muted);
-      max-width: 760px;
-    }
-
-    .cta-band__actions {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: flex-end;
-      gap: 14px;
-    }
-
-    .faq__list li {
-      padding: 20px 22px;
-      border-radius: 18px;
-      border: 1px solid var(--line);
-      background: rgba(255,255,255,.035);
-    }
-
-    .faq__list strong {
-      display: block;
-      margin-bottom: 8px;
-      font-size: 18px;
-    }
-
-    .footer {
-      padding: 34px 0 48px;
-      color: var(--muted);
-    }
-
-    .footer__inner {
+    .bonus-card__header {
+      position: relative;
       display: flex;
       justify-content: space-between;
-      gap: 16px;
       align-items: center;
-      border-top: 1px solid var(--line);
-      padding-top: 24px;
+      margin-bottom: var(--gap-lg);
+    }
+    .bonus-card__tag {
+      font-size: .72rem;
+      font-weight: 700;
+      letter-spacing: .15em;
+      text-transform: uppercase;
+      color: var(--c-primary);
+    }
+    .bonus-card__logo {
+      font-family: var(--f-display);
+      font-size: 1.5rem;
+      letter-spacing: .12em;
+      color: rgba(255,255,255,.2);
+    }
+    .bonus-card__value {
+      position: relative;
+      font-family: var(--f-display);
+      font-size: clamp(3rem, 8vw, 5.5rem);
+      letter-spacing: .04em;
+      color: var(--c-text);
+      text-shadow: 0 0 60px var(--c-primary-glow);
+      line-height: 1;
+      margin-bottom: var(--gap-sm);
+    }
+    .bonus-card__caption {
+      position: relative;
+      font-size: .9rem;
+      color: var(--c-text-muted);
+      margin-bottom: var(--gap-lg);
+    }
+    .bonus-card__footer {
+      position: relative;
+      padding-top: var(--gap-md);
+      border-top: 1px solid var(--c-border);
+      font-size: .78rem;
+      color: var(--c-text-dim);
     }
 
-    @media (max-width: 1080px) {
-      .hero__grid,
-      .cta-band,
-      .grid-4,
-      .grid-3,
-      .slots,
-      .steps {
-        grid-template-columns: 1fr 1fr;
-      }
+    /* ——— SEO-КОНТЕНТ ——— */
+    .seo-content { background: var(--c-bg); }
+    .seo-content__header { margin-bottom: var(--gap-lg); }
 
-      .cta-band__actions {
-        justify-content: flex-start;
-      }
+    .seo-content__visible,
+    .seo-content__hidden {
+      font-size: 1rem;
+      color: var(--c-text-muted);
+      line-height: 1.8;
+      max-width: 860px;
+    }
+    .seo-content__visible p + p,
+    .seo-content__hidden p + p { margin-top: var(--gap-md); }
+    .seo-content__hidden h3 {
+      font-size: 1.3rem;
+      color: var(--c-text);
+      margin: var(--gap-lg) 0 var(--gap-sm);
+    }
+    .seo-content__hidden h4 {
+      font-size: 1.1rem;
+      color: var(--c-text);
+      margin: var(--gap-md) 0 var(--gap-sm);
+    }
+    .seo-content__list {
+      list-style: disc;
+      padding-left: 1.5em;
+      display: flex;
+      flex-direction: column;
+      gap: var(--gap-sm);
     }
 
-    @media (max-width: 760px) {
-      .topbar__inner,
-      .footer__inner,
-      .hero__cta,
-      .hero__points,
-      .grid-4,
-      .grid-3,
-      .slots,
-      .steps,
-      .hero__grid,
-      .cta-band {
-        grid-template-columns: 1fr;
-        display: grid;
-      }
+    
+    
 
-      .topbar__actions {
+    /* Кнопка «Читать далее» */
+    .seo-content__toggle {
+      display: inline-flex;
+      align-items: center;
+      gap: var(--gap-xs);
+      margin-top: var(--gap-md);
+      padding: .6em 1.4em;
+      font-size: .875rem;
+      font-weight: 700;
+      letter-spacing: .06em;
+      text-transform: uppercase;
+      color: var(--c-primary);
+      border: 1px solid rgba(200,16,46,.3);
+      border-radius: 100px;
+      transition: background var(--t-fast), border-color var(--t-fast);
+    }
+    .seo-content__toggle:hover { background: rgba(200,16,46,.08); border-color: var(--c-primary); }
+
+    .toggle__label-close,
+    .toggle__icon { transition: transform var(--t-mid) var(--ease-out); }
+    .seo-content__toggle[aria-expanded="true"] .toggle__label-open  { display: none; }
+    .seo-content__toggle[aria-expanded="false"] .toggle__label-close { display: none; }
+    .seo-content__toggle[aria-expanded="true"] .toggle__icon { transform: rotate(180deg); }
+
+    /* ——— FAQ ——— */
+    .faq { background: var(--c-bg-alt); }
+    .faq__inner { max-width: 800px; }
+    .faq__accordion { display: flex; flex-direction: column; gap: var(--gap-sm); }
+
+    .faq__item {
+      background: var(--c-bg-card);
+      border: 1px solid var(--c-border);
+      border-radius: var(--r-md);
+      overflow: hidden;
+      transition: border-color var(--t-mid);
+    }
+    .faq__item:has(.faq__btn[aria-expanded="true"]) {
+      border-color: rgba(200,16,46,.35);
+    }
+
+    .faq__btn {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: var(--gap-md);
+      width: 100%;
+      padding: var(--gap-md) var(--gap-lg);
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--c-text);
+      text-align: left;
+      transition: color var(--t-fast);
+    }
+    .faq__btn:hover { color: var(--c-primary); }
+    .faq__btn[aria-expanded="true"] { color: var(--c-primary); }
+
+    .faq__icon {
+      flex-shrink: 0;
+      transition: transform var(--t-mid) var(--ease-out);
+      color: var(--c-text-muted);
+    }
+    .faq__btn[aria-expanded="true"] .faq__icon {
+      transform: rotate(180deg);
+      color: var(--c-primary);
+    }
+
+    /* Анимация ответа через max-height */
+    
+    
+     /* Переопределяем hidden для анимации */
+
+    .faq__answer-body {
+      padding: 0 var(--gap-lg) var(--gap-md);
+      font-size: .95rem;
+      color: var(--c-text-muted);
+      line-height: 1.75;
+    }
+
+    /* ——— CTA-БАННЕР ——— */
+    .cta-banner {
+      background: linear-gradient(135deg, #160508, #0d0d0d 60%);
+      border-top: 1px solid var(--c-border);
+      border-bottom: 1px solid var(--c-border);
+    }
+    .cta-banner__inner {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: var(--gap-lg);
+    }
+    .cta-banner__title {
+      font-size: clamp(1.8rem, 4vw, 3.2rem);
+      margin-bottom: var(--gap-sm);
+    }
+    .cta-banner__desc {
+      font-size: 1rem;
+      color: var(--c-text-muted);
+      max-width: 400px;
+    }
+    .cta-banner__actions {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: var(--gap-md);
+    }
+    .cta-banner__contact { font-style: normal; display: flex; flex-direction: column; gap: var(--gap-sm); }
+    .contact-link {
+      display: flex;
+      align-items: center;
+      gap: var(--gap-sm);
+      font-size: .875rem;
+      color: var(--c-text-muted);
+      transition: color var(--t-fast);
+    }
+    .contact-link:hover { color: var(--c-primary); }
+
+    /* ——— FOOTER ——— */
+    .site-footer {
+      background: var(--c-bg);
+      border-top: 1px solid var(--c-border);
+    }
+    .footer__inner {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      gap: var(--gap-xl);
+      padding-block: var(--gap-xl);
+    }
+    .footer__logo { display: inline-block; margin-bottom: var(--gap-md); }
+    .footer__desc {
+      font-size: .875rem;
+      color: var(--c-text-muted);
+      line-height: 1.7;
+      max-width: 280px;
+      margin-bottom: var(--gap-lg);
+    }
+    .footer__social { display: flex; gap: var(--gap-sm); }
+    .social-link {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px; height: 40px;
+      background: var(--c-surface);
+      border: 1px solid var(--c-border);
+      border-radius: var(--r-sm);
+      color: var(--c-text-muted);
+      transition: color var(--t-fast), border-color var(--t-fast), background var(--t-fast);
+    }
+    .social-link:hover {
+      color: var(--c-text);
+      border-color: rgba(255,255,255,.2);
+      background: var(--c-bg-card-h);
+    }
+
+    .footer__nav {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: var(--gap-lg);
+    }
+    .footer__nav-title {
+      font-size: .7rem;
+      letter-spacing: .2em;
+      text-transform: uppercase;
+      color: var(--c-text-dim);
+      margin-bottom: var(--gap-md);
+    }
+    .footer__nav a {
+      display: block;
+      font-size: .875rem;
+      color: var(--c-text-muted);
+      padding-block: .3em;
+      transition: color var(--t-fast);
+    }
+    .footer__nav a:hover { color: var(--c-text); }
+
+    /* Нижняя строка */
+    .footer__bottom {
+      border-top: 1px solid var(--c-border);
+      padding-block: var(--gap-md);
+    }
+    .footer__bottom-inner {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      gap: var(--gap-lg);
+      justify-content: space-between;
+    }
+    .footer__copy {
+      font-size: .8rem;
+      color: var(--c-text-dim);
+      align-self: center;
+    }
+    .footer__age {
+      display: flex;
+      align-items: flex-start;
+      gap: var(--gap-sm);
+    }
+    .age-badge {
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 36px; height: 36px;
+      border: 2px solid var(--c-text-dim);
+      border-radius: 50%;
+      font-size: .72rem;
+      font-weight: 900;
+      color: var(--c-text-dim);
+      letter-spacing: -.02em;
+    }
+    .footer__disclaimer {
+      font-size: .75rem;
+      color: var(--c-text-dim);
+      line-height: 1.5;
+      max-width: 340px;
+    }
+    .footer__license {
+      font-size: .75rem;
+      color: var(--c-text-dim);
+      max-width: 260px;
+      line-height: 1.5;
+    }
+
+    /* ——— BACK TO TOP ——— */
+    .back-to-top {
+      position: fixed;
+      bottom: var(--gap-lg);
+      right: var(--gap-lg);
+      z-index: 50;
+      width: 44px; height: 44px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--c-bg-card);
+      border: 1px solid var(--c-border);
+      border-radius: var(--r-sm);
+      color: var(--c-text-muted);
+      opacity: 0;
+      transform: translateY(16px);
+      transition: opacity var(--t-mid), transform var(--t-mid) var(--ease-out),
+                  color var(--t-fast), border-color var(--t-fast);
+    }
+    .back-to-top.is-visible {
+      opacity: 1;
+      transform: none;
+    }
+    .back-to-top:hover {
+      color: var(--c-text);
+      border-color: rgba(255,255,255,.2);
+    }
+
+    /* ══════════════════════════════════════════════════════════
+         АДАПТИВНОСТЬ — МЕДИА-ЗАПРОСЫ (Mobile-First)
+         ══════════════════════════════════════════════════════ */
+
+    /* ——— ≤ 768px (планшет / мобильный) ——— */
+    @media (max-width: 768px) {
+      /* Навигация убирается в бургер */
+      .header__nav,
+      .header__cta { display: none; }
+      .header__burger { display: flex; }
+
+      /* Hero — изображение уходит за контент */
+      .hero__image-wrap {
+        position: static;
         width: 100%;
-        display: grid;
-        grid-template-columns: 1fr;
+        max-width: 100%;
+        margin-top: var(--gap-lg);
+        transform: none;
       }
-
-      .button,
-      .button--ghost {
-        width: 100%;
-      }
-
-      .hero__content,
-      .hero__stats,
-      .cta-band {
-        padding: 22px;
-      }
-
       .hero {
-        padding-top: 26px;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-top: calc(68px + var(--gap-lg));
       }
+      .hero__content { max-width: 100%; }
 
-      .section-head {
-        display: block;
+      /* Бонусы — вертикально */
+      .bonuses__inner { grid-template-columns: 1fr; }
+
+      /* Футер — вертикально */
+      .footer__inner { grid-template-columns: 1fr; gap: var(--gap-lg); }
+      .footer__nav { grid-template-columns: repeat(2, 1fr); }
+
+      /* CTA-баннер */
+      .cta-banner__actions { align-items: flex-start; }
+    }
+
+    /* ——— ≤ 480px (маленькие мобильные) ——— */
+    @media (max-width: 480px) {
+      .hero__title { font-size: clamp(2.8rem, 14vw, 4rem); }
+      .trust-divider { display: none; }
+      .hero__trust { flex-direction: column; align-items: flex-start; gap: var(--gap-md); }
+      .features__grid { grid-template-columns: 1fr; }
+      .catalog__grid { grid-template-columns: 1fr; }
+      .footer__nav { grid-template-columns: 1fr; }
+      .footer__bottom-inner { flex-direction: column; gap: var(--gap-md); }
+    }
+
+    /* ——— ≥ 1440px (широкие экраны) ——— */
+    @media (min-width: 1440px) {
+      :root { --max-w: 1380px; }
+    }
+
+    /* ——— Уменьшение анимаций для пользователей с prefers-reduced-motion ——— */
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        animation-duration: .01ms !important;
+        transition-duration: .01ms !important;
       }
+      html { scroll-behavior: auto; }
+    }
+  
 
-      .slot h3 {
-        margin-top: 24px;
+/* ===== Refactor patch: clean accordion, tabs, menu scroll lock ===== */
+.faq__answer {
+  display: grid;
+  grid-template-rows: 0fr;
+  opacity: 0;
+  transition:
+    grid-template-rows .45s var(--ease-out),
+    opacity .28s ease;
+}
+.faq__answer-body {
+  min-height: 0;
+  overflow: hidden;
+  padding: 0 var(--gap-lg);
+}
+.faq__item.is-open .faq__answer {
+  grid-template-rows: 1fr;
+  opacity: 1;
+}
+.faq__item.is-open .faq__answer-body {
+  padding-bottom: var(--gap-md);
+}
+.faq__item.is-open .faq__icon {
+  transform: rotate(180deg);
+}
+
+.seo-content__hidden {
+  display: grid;
+  grid-template-rows: 0fr;
+  opacity: 0;
+  transition:
+    grid-template-rows .6s var(--ease-out),
+    opacity .35s ease;
+}
+.seo-content__hidden-inner {
+  min-height: 0;
+  overflow: hidden;
+}
+.seo-content__hidden.is-open {
+  grid-template-rows: 1fr;
+  opacity: 1;
+}
+
+.product-card {
+  opacity: 1;
+}
+.product-card.is-hidden {
+  display: none;
+  opacity: 0;
+}
+.product-card.is-entering {
+  animation: productCardFadeIn .28s var(--ease-out);
+}
+@keyframes productCardFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+body.is-menu-open {
+  overflow: hidden;
+}
+
+
+@media (max-width: 767px) {
+  
+  
+}
+
+
+/* ===== SEO longread refinements ===== */
+.seo-content__hidden-inner {
+  display: block;
+}
+
+.table-responsive {
+  margin: 1.25rem 0 1.5rem;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border: 1px solid rgba(255,255,255,0.10);
+  border-radius: 18px;
+  background:
+    linear-gradient(180deg, rgba(255,255,255,0.035), rgba(255,255,255,0.02)),
+    rgba(255,255,255,0.01);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.04);
+}
+
+.seo-content__table {
+  width: 100%;
+  min-width: 720px;
+  border-collapse: collapse;
+  font-size: 0.96rem;
+  line-height: 1.65;
+}
+
+.seo-content__table tr + tr {
+  border-top: 1px solid rgba(255,255,255,0.08);
+}
+
+.seo-content__table td {
+  padding: 0.95rem 1rem;
+  vertical-align: top;
+  color: var(--c-text-muted);
+}
+
+.seo-content__table td:first-child {
+  width: 31%;
+  color: var(--c-text);
+  font-weight: 700;
+  white-space: nowrap;
+  background: rgba(255,255,255,0.03);
+  border-right: 1px solid rgba(255,255,255,0.08);
+}
+
+.seo-content__intro,
+.seo-content__note {
+  margin: 1rem 0 1.2rem;
+}
+
+.seo-content__hidden h3 {
+  margin-top: 1.7rem;
+}
+
+.seo-content__hidden h4 {
+  margin-top: 1.15rem;
+}
+
+.seo-content__hidden p {
+  margin: 0.85rem 0;
+}
+
+.seo-content__list,
+.seo-content__ordered {
+  padding-left: 1.25rem;
+  margin: 0.85rem 0 1.05rem;
+}
+
+.seo-content__ordered {
+  list-style: decimal;
+}
+
+.seo-content__list li,
+.seo-content__ordered li {
+  margin-bottom: 0.5rem;
+}
+
+.seo-content__hidden .accent {
+  color: var(--c-text);
+  font-weight: 700;
+}
+
+@media (max-width: 767px) {
+  .table-responsive {
+    margin-inline: -0.1rem;
+    border-radius: 16px;
+  }
+
+  .seo-content__table {
+    min-width: 640px;
+    font-size: 0.93rem;
+  }
+
+  .seo-content__table td {
+    padding: 0.85rem 0.9rem;
+  }
+
+  .seo-content__table td:first-child {
+    width: 38%;
+  }
+}
+</style></head>
+<body>
+<!-- ============================================================
+       HEADER / НАВИГАЦИЯ
+       ============================================================ -->
+<header class="site-header" id="top" role="banner">
+<div class="container header__inner">
+<!-- Логотип -->
+<a aria-label="Beef — на главную" class="header__logo" href="/">
+<span aria-hidden="true" class="logo-text">BEEF</span>
+<!-- TODO: Заменить текст на SVG-логотип: <img src="/logo.svg" alt="Beef" width="120" height="40"> -->
+</a>
+<!-- Навигация -->
+<nav aria-label="Основная навигация" class="header__nav">
+<ul class="nav__list" role="list">
+<li><a class="nav__link" href="#features">Преимущества</a></li>
+<li><a class="nav__link" href="#catalog">Ассортимент</a></li>
+<li><a class="nav__link" href="#bonuses">Бонусы</a></li>
+<li><a class="nav__link" href="#faq">FAQ</a></li>
+<li><a class="nav__link" href="#contacts">Контакты</a></li>
+</ul>
+</nav>
+<!-- CTA в шапке -->
+<div class="header__cta">
+<a aria-label="Войти в аккаунт" class="btn btn--ghost btn--sm" href="/login">Вход</a>
+<a aria-label="Создать аккаунт" class="btn btn--primary btn--sm" href="/register">Регистрация</a>
+</div>
+<!-- Кнопка мобильного меню -->
+<button aria-controls="mobile-menu" aria-expanded="false" aria-label="Открыть меню" class="header__burger">
+<span class="burger__bar"></span>
+<span class="burger__bar"></span>
+<span class="burger__bar"></span>
+</button>
+</div>
+<!-- Мобильное меню (скрыто по умолчанию) -->
+<div aria-hidden="true" class="mobile-menu" id="mobile-menu">
+<nav aria-label="Мобильная навигация">
+<ul class="mobile-menu__list" role="list">
+<li><a class="mobile-menu__link" href="#features">Преимущества</a></li>
+<li><a class="mobile-menu__link" href="#catalog">Ассортимент</a></li>
+<li><a class="mobile-menu__link" href="#bonuses">Бонусы</a></li>
+<li><a class="mobile-menu__link" href="#faq">FAQ</a></li>
+<li><a class="mobile-menu__link" href="#contacts">Контакты</a></li>
+</ul>
+<div class="mobile-menu__cta">
+<a class="btn btn--ghost btn--full" href="/login">Вход</a>
+<a class="btn btn--primary btn--full" href="/register">Регистрация</a>
+</div>
+</nav>
+</div>
+</header>
+<!-- ============================================================
+       MAIN CONTENT
+       ============================================================ -->
+<main id="main-content">
+<!-- ══════════════════════════════════════════════════════════
+         1. HERO — ГЛАВНЫЙ ОФФЕР
+         ══════════════════════════════════════════════════════════ -->
+<section aria-labelledby="hero-heading" class="hero">
+<!-- Декоративный фон -->
+<div aria-hidden="true" class="hero__bg">
+<div class="hero__bg-glow hero__bg-glow--1"></div>
+<div class="hero__bg-glow hero__bg-glow--2"></div>
+<div class="hero__bg-grid"></div>
+</div>
+<div class="container hero__content">
+<!-- Бейдж (подзаголовок над H1) -->
+<div class="hero__badge reveal">Лицензия Curaçao • Вывод 15 мин. — 2 часа</div>
+<!-- H1 — ЕДИНСТВЕННЫЙ НА СТРАНИЦЕ -->
+<h1 class="hero__title reveal reveal-delay-1" id="hero-heading"><span class="hero__title-line">Beef Casino:</span><span class="hero__title-line hero__title-accent">официальный сайт,</span><span class="hero__title-line">слоты и бонус на старт</span></h1>
+<!-- Подзаголовок (P, не H2!) -->
+<p class="hero__subtitle reveal reveal-delay-2">Зарегистрируйтесь за 30 секунд, заберите до 15 000 ₽ + 100 FS с вейджером x35 и сразу переходите в слоты, рулетку и live casino. Вывод средств обычно занимает от 15 минут до 2 часов.</p>
+<!-- CTA-кнопки -->
+<div class="hero__actions reveal reveal-delay-3">
+<a aria-label="Забрать бонус Beef Casino" class="btn btn--primary btn--lg" href="/register">Забрать бонус</a>
+<a aria-label="Войти в аккаунт Beef Casino" class="btn btn--ghost btn--lg" href="/login">Войти в аккаунт</a>
+</div>
+<!-- Доверительные метрики -->
+<div aria-label="Ключевые показатели" class="hero__trust reveal reveal-delay-4">
+<div class="trust-item">
+<strong class="trust-item__value">15 000 ₽ + 100 FS</strong>
+<span class="trust-item__label">приветственный пакет с вейджером x35</span>
+</div>
+<div aria-hidden="true" class="trust-divider"></div>
+<div class="trust-item">
+<strong class="trust-item__value">30 секунд</strong>
+<span class="trust-item__label">создание аккаунта и первый вход</span>
+</div>
+<div aria-hidden="true" class="trust-divider"></div>
+<div class="trust-item">
+<strong class="trust-item__value">15 мин. — 2 часа</strong>
+<span class="trust-item__label">вывод выигрыша на карту, СБП или крипту</span>
+</div>
+</div>
+</div>
+<!-- Изображение Hero (lazy) -->
+<figure aria-hidden="true" class="hero__image-wrap reveal">
+<img alt="Промо-экран Beef Casino с бонусом, слотами и мобильной версией" class="hero__image" fetchpriority="high" height="520" loading="eager" src="/images/hero-placeholder.jpg" width="680"/>
+</figure>
+<!-- Скролл-индикатор -->
+<a aria-label="Прокрутить к преимуществам" class="hero__scroll" href="#features">
+<span class="scroll__label">Далее</span>
+<svg aria-hidden="true" fill="none" height="20" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="20"><polyline points="6 9 12 15 18 9"></polyline></svg>
+</a>
+</section>
+<!-- ══════════════════════════════════════════════════════════
+         2. ПРЕИМУЩЕСТВА / FEATURES
+         ══════════════════════════════════════════════════════════ -->
+<section aria-labelledby="features-heading" class="features" id="features">
+<div class="container">
+<header class="section-header reveal">
+<span class="section-label">Преимущества</span>
+<h2 class="section-title" id="features-heading">Почему в Beef Casino удобно играть</h2>
+<p class="section-desc">Быстрый вход, моментальный депозит через СБП и большой выбор игр — всё, что хочется видеть перед первой сессией.</p>
+</header>
+<!-- Сетка преимуществ — 4 карточки (можно масштабировать) -->
+<ul class="features__grid" role="list">
+<li class="feature-card reveal reveal-delay-1">
+<div aria-hidden="true" class="feature-card__icon">
+<!-- TODO: Заменить на SVG-иконку -->
+<svg fill="none" height="32" stroke="currentColor" stroke-width="1.5" viewbox="0 0 24 24" width="32"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+</div>
+<h3 class="feature-card__title">Регистрация за 30 секунд</h3>
+<p class="feature-card__text">Аккаунт создаётся по email или телефону. Первый депозит — от 500 ₽, а приветственный пакет до 15 000 ₽ + 100 FS открывается сразу после входа.</p>
+</li>
+<li class="feature-card reveal reveal-delay-2">
+<div aria-hidden="true" class="feature-card__icon">
+<svg fill="none" height="32" stroke="currentColor" stroke-width="1.5" viewbox="0 0 24 24" width="32"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+</div>
+<h3 class="feature-card__title">Пополнение и вывод без нервов</h3>
+<p class="feature-card__text">СБП и карты МИР/Visa работают быстро, а статус заявки виден в кабинете. Вывод выигрыша на карту или крипту обычно занимает от 15 минут до 2 часов, без комиссии со стороны казино.</p>
+</li>
+<li class="feature-card reveal reveal-delay-3">
+<div aria-hidden="true" class="feature-card__icon">
+<svg fill="none" height="32" stroke="currentColor" stroke-width="1.5" viewbox="0 0 24 24" width="32"><rect height="14" rx="2" width="20" x="2" y="5"></rect><line x1="2" x2="22" y1="10" y2="10"></line></svg>
+</div>
+<h3 class="feature-card__title">Слоты и live casino без лагов</h3>
+<p class="feature-card__text">В каталоге есть Megaways, Bonus Buy, джекпоты и live-столы от Evolution. Лицензионный софт Pragmatic Play, Hacksaw Gaming и других студий держит RTP в районе 96–98%.</p>
+</li>
+<li class="feature-card reveal reveal-delay-4">
+<div aria-hidden="true" class="feature-card__icon">
+<svg fill="none" height="32" stroke="currentColor" stroke-width="1.5" viewbox="0 0 24 24" width="32"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.39 2 2 0 0 1 3.6 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 8.91a16 16 0 0 0 6 6l.77-.77a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+</div>
+<h3 class="feature-card__title">Удобно с телефона</h3>
+<p class="feature-card__text">Мобильная версия не урезает функции: вход, касса, бонусы и любимые игры работают с телефона так же быстро. Для Android обычно можно скачать APK-файл приложения и держать Beef Casino под рукой.</p>
+</li>
+</ul>
+</div>
+</section>
+<!-- ══════════════════════════════════════════════════════════
+         3. АССОРТИМЕНТ / ИГРОВОЙ ЗАЛ / КАТАЛОГ
+         ══════════════════════════════════════════════════════════ -->
+<section aria-labelledby="catalog-heading" class="catalog" id="catalog">
+<div class="container">
+<header class="section-header reveal">
+<span class="section-label">Ассортимент</span>
+<h2 class="section-title" id="catalog-heading">Что открыть в Beef Casino прямо сейчас</h2>
+</header>
+<!-- Фильтр / Табы категорий -->
+<nav aria-label="Фильтр категорий" class="catalog__tabs reveal">
+<ul class="tabs__list" role="tablist">
+<li role="presentation">
+<button aria-selected="true" class="tab-btn is-active" data-tab="all" role="tab">Все</button>
+</li>
+<li role="presentation">
+<button aria-selected="false" class="tab-btn" data-tab="cat1" role="tab">Слоты</button>
+</li>
+<li role="presentation">
+<button aria-selected="false" class="tab-btn" data-tab="cat2" role="tab">Live Casino</button>
+</li>
+<li role="presentation">
+<button aria-selected="false" class="tab-btn" data-tab="cat3" role="tab">Топ-выплаты</button>
+</li>
+</ul>
+</nav>
+<!-- Плитка карточек (добавьте / удалите нужное количество) -->
+<div aria-label="Список позиций" class="catalog__grid" id="catalog-grid" role="tabpanel">
+<!-- Карточка 1 -->
+<article class="product-card reveal reveal-delay-1" data-category="cat1">
+<a aria-label="Big Bass Bonanza" class="product-card__link" href="/slots/big-bass-bonanza">
+<figure class="product-card__media">
+<img alt="Обложка слота Big Bass Bonanza в Beef Casino" class="product-card__img" height="240" loading="lazy" src="/images/product-placeholder.jpg" width="380"/>
+<span class="product-card__badge">HOT</span>
+</figure>
+<div class="product-card__body">
+<h3 class="product-card__title">Big Bass Bonanza</h3>
+<p class="product-card__meta">Бонусная рыбалка, быстрые спины и серия заносов на одном дыхании. Этот слот запускают ради бешеного ритма и цепких бонусных раундов.</p>
+<span class="product-card__cta">Открыть →</span>
+</div>
+</a>
+</article>
+<!-- Карточка 2 -->
+<article class="product-card reveal reveal-delay-2" data-category="cat1">
+<a aria-label="Gates of Olympus" class="product-card__link" href="/slots/gates-of-olympus">
+<figure class="product-card__media">
+<img alt="Обложка слота Gates of Olympus в Beef Casino" class="product-card__img" height="240" loading="lazy" src="/images/product-placeholder.jpg" width="380"/>
+</figure>
+<div class="product-card__body">
+<h3 class="product-card__title">Gates of Olympus</h3>
+<p class="product-card__meta">Каскадные множители и бонусный раунд с x500 — за это его и гоняют. Один удачный заход может резко разогнать сессию.</p>
+<span class="product-card__cta">Открыть →</span>
+</div>
+</a>
+</article>
+<!-- Карточка 3 -->
+<article class="product-card reveal reveal-delay-3" data-category="cat1">
+<a aria-label="Book of Dead" class="product-card__link" href="/slots/book-of-dead">
+<figure class="product-card__media">
+<img alt="Обложка слота Book of Dead в Beef Casino" class="product-card__img" height="240" loading="lazy" src="/images/product-placeholder.jpg" width="380"/>
+</figure>
+<div class="product-card__body">
+<h3 class="product-card__title">Book of Dead</h3>
+<p class="product-card__meta">Фриспины, расширяющийся символ и знакомая классика без лишнего шума. Хороший выбор, когда хочется старой школы и ровного темпа.</p>
+<span class="product-card__cta">Открыть →</span>
+</div>
+</a>
+</article>
+<!-- Карточка 4 -->
+<article class="product-card reveal reveal-delay-4" data-category="cat2">
+<a aria-label="Live Casino" class="product-card__link" href="/live/roulette">
+<figure class="product-card__media">
+<img alt="Раздел live casino с живыми дилерами в Beef Casino" class="product-card__img" height="240" loading="lazy" src="/images/product-placeholder.jpg" width="380"/>
+<span class="product-card__badge product-card__badge--new product-card__badge--new">NEW</span>
+</figure>
+<div class="product-card__body">
+<h3 class="product-card__title">Live Casino</h3>
+<p class="product-card__meta">Рулетка, блэкджек и baccarat с живыми дилерами и атмосферой реального зала. Ставки принимаются быстро, картинка идёт плавно.</p>
+<span class="product-card__cta">Открыть →</span>
+</div>
+</a>
+</article>
+<!-- Карточка 5 -->
+<article class="product-card reveal" data-category="cat3">
+<a aria-label="Dragon Cash" class="product-card__link" href="/slots/dragon-cash">
+<figure class="product-card__media">
+<img alt="Обложка слота Dragon Cash в Beef Casino" class="product-card__img" height="240" loading="lazy" src="/images/product-placeholder.jpg" width="380"/>
+</figure>
+<div class="product-card__body">
+<h3 class="product-card__title">Dragon Cash</h3>
+<p class="product-card__meta">Слот любят за частые бонусные вспышки, джекпоты и ощущение, что занос может прилететь в любой спин.</p>
+<span class="product-card__cta">Открыть →</span>
+</div>
+</a>
+</article>
+<!-- Карточка 6 -->
+<article class="product-card reveal reveal-delay-1" data-category="cat3">
+<a aria-label="Mega Moolah" class="product-card__link" href="/slots/mega-moolah">
+<figure class="product-card__media">
+<img alt="Обложка слота Mega Moolah в Beef Casino" class="product-card__img" height="240" loading="lazy" src="/images/product-placeholder.jpg" width="380"/>
+</figure>
+<div class="product-card__body">
+<h3 class="product-card__title">Mega Moolah</h3>
+<p class="product-card__meta">Легенда среди джекпот-слотов. Идут сюда за шансом поймать по-настоящему крупный выигрыш.</p>
+<span class="product-card__cta">Открыть →</span>
+</div>
+</a>
+</article>
+</div><!-- /catalog__grid -->
+<!-- Кнопка «Показать все» -->
+<div class="catalog__more reveal">
+<a class="btn btn--ghost" href="/catalog">Открыть весь каталог Beef Casino</a>
+</div>
+</div>
+</section>
+<!-- ══════════════════════════════════════════════════════════
+         4. БОНУСНАЯ СИСТЕМА / ПРОГРАММА ЛОЯЛЬНОСТИ
+         ══════════════════════════════════════════════════════════ -->
+<section aria-labelledby="bonuses-heading" class="bonuses" id="bonuses">
+<!-- Акцентный фон блока -->
+<div aria-hidden="true" class="bonuses__bg">
+<div class="bonuses__bg-glow"></div>
+</div>
+<div class="container bonuses__inner">
+<!-- Текстовая часть -->
+<div class="bonuses__text">
+<span class="section-label reveal">Программа лояльности</span>
+<h2 class="section-title reveal reveal-delay-1" id="bonuses-heading">Бонусы Beef Casino для старта и дальнейшей игры</h2>
+<p class="section-desc reveal reveal-delay-2">После регистрации открывается приветственный пакет — бонус на депозит, фриспины и доступ к турнирам. Всё прозрачно и доступно в личном кабинете.</p>
+<!-- Список бонусов -->
+<ul class="bonuses__list reveal reveal-delay-3" role="list">
+<li class="bonuses__item">
+<span aria-hidden="true" class="bonuses__item-icon">🎁</span>
+<div>
+<h3 class="bonuses__item-title">Бонус на первый депозит</h3>
+<p class="bonuses__item-desc">После пополнения стартовый пакет сразу усиливает банкролл. Удобно, когда хочется не разминаться, а сразу идти в слоты или live casino.</p>
+</div>
+</li>
+<li class="bonuses__item">
+<span aria-hidden="true" class="bonuses__item-icon">⚡</span>
+<div>
+<h3 class="bonuses__item-title">Промокод и быстрые акции</h3>
+<p class="bonuses__item-desc">В рамках акций можно подключить промокод Beef и забрать дополнительные фриспины или повышенный бонус. Все активные предложения видны в кабинете.</p>
+</div>
+</li>
+<li class="bonuses__item">
+<span aria-hidden="true" class="bonuses__item-icon">🏆</span>
+<div>
+<h3 class="bonuses__item-title">Кэшбэк, турниры и лояльность</h3>
+<p class="bonuses__item-desc">Для постоянной игры есть кэшбэк, гонки и персональные предложения. Чем активнее сессии, тем интереснее бонусный уровень.</p>
+</div>
+</li>
+</ul>
+<div class="reveal reveal-delay-4">
+<a class="btn btn--primary" href="/register">Активировать бонус</a>
+</div>
+</div>
+<!-- Визуальная часть (карточка/изображение) -->
+<aside aria-label="Визуализация бонусов" class="bonuses__visual reveal">
+<div class="bonus-card">
+<div class="bonus-card__header">
+<span class="bonus-card__tag">Приветственный бонус</span>
+<span class="bonus-card__logo">BEEF</span>
+</div>
+<p class="bonus-card__value">+15 000 ₽ + 100 FS</p>
+<p class="bonus-card__caption">для нового игрока после регистрации и первого депозита</p>
+<div class="bonus-card__footer">
+<span>Размер пакета, фриспины и доступные акции видны в личном кабинете</span>
+</div>
+</div>
+</aside>
+</div>
+</section>
+<!-- ══════════════════════════════════════════════════════════
+         5. SEO-КОНТЕНТ (под кат «Читать далее»)
+         ══════════════════════════════════════════════════════════ -->
+<section aria-labelledby="seo-heading" class="seo-content" id="seo">
+<div class="container">
+<header class="seo-content__header reveal">
+<h2 class="section-title" id="seo-heading">Beef Casino — официальный сайт для слотов, live casino и быстрого вывода</h2>
+</header>
+<!-- Видимая часть — всегда показывается -->
+<div class="seo-content__visible reveal reveal-delay-1">
+<p>Ищете официальный сайт Beef Casino? Здесь можно быстро зарегистрироваться, открыть личный кабинет и сразу перейти к слотам, live casino и кассе. Приветственный пакет — до 15 000 ₽ + 100 FS с вейджером x35.</p>
+<p>После входа доступны СБП, карты МИР/Visa и крипта, а вывод выигрыша обычно идёт от 15 минут до 2 часов. В каталоге — игровые автоматы с RTP 96–98%, live-столы Evolution, а также хиты Pragmatic Play и Hacksaw Gaming, включая Megaways и Bonus Buy.</p>
+</div>
+<!-- Скрытая часть — раскрывается по кнопке -->
+<div aria-hidden="true" class="seo-content__hidden" id="seo-hidden"><div class="seo-content__hidden-inner">
+<p class="seo-content__intro">Перед первым пополнением полезно понять главное: как пройти регистрацию, где смотреть способы оплаты, сколько занимает вывод и где искать актуальную ссылку для входа. Здесь собраны бонусы, провайдеры, слоты, live casino и основные детали по кассе.</p>
+<div class="table-responsive">
+<table class="seo-content__table">
+<tbody>
+<tr>
+<td>Год основания</td>
+<td>2025</td>
+</tr>
+<tr>
+<td>Лицензия</td>
+<td>Curaçao Gaming Authority</td>
+</tr>
+<tr>
+<td>Мин. депозит</td>
+<td>500 ₽</td>
+</tr>
+<tr>
+<td>Мин. выплата / лимит</td>
+<td>1 000 ₽ / до 5 000 000 ₽ в месяц</td>
+</tr>
+<tr>
+<td>Скорость вывода</td>
+<td>от 15 минут до 2 часов</td>
+</tr>
+<tr>
+<td>Провайдеры</td>
+<td>Pragmatic Play, Hacksaw Gaming, Evolution, NetEnt, BGaming, Play'n GO, Nolimit City</td>
+</tr>
+<tr>
+<td>Методы оплаты</td>
+<td>СБП, карты МИР/Visa, USDT, BTC</td>
+</tr>
+<tr>
+<td>Валюты счёта</td>
+<td>RUB, KZT, USDT</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="seo-content__note">Лимиты, платёжные методы и условия акций зависят от статуса аккаунта. Перед депозитом и выводом откройте раздел платежей в личном кабинете и проверьте актуальные значения.</p>
+<h3>Регистрация и вход в Beef Casino</h3>
+<p>Ищете официальный сайт? В Beef Casino регистрация занимает пару шагов. Вы выбираете email или телефон, задаёте пароль и подтверждаете контакт. После этого можно зайти в личный кабинет, открыть кассу, бонусы, игровые автоматы и live casino.</p>
+<ol class="seo-content__ordered">
+<li>Откройте официальный сайт Beef Casino и нажмите «Регистрация».</li>
+<li>Укажите email или номер телефона, придумайте пароль и выберите валюту счёта.</li>
+<li>Подтвердите аккаунт по SMS-коду или по ссылке из письма.</li>
+<li>Зайдите в личный кабинет, откройте кассу, пополните баланс и активируйте бонус.</li>
+</ol>
+<p>При обычном старте хватает регистрации и подтверждения контакта. Верификация профиля нужна позже — обычно для вывода крупных сумм, смены платёжных реквизитов или проверки безопасности.</p>
+<h3>Рабочее зеркало Beef Casino на сегодня</h3>
+<p>Если основной домен временно не открывается, ищите зеркало на сегодня или свежую рабочую ссылку через официальный канал сервиса. Альтернативный адрес ведёт в тот же аккаунт: баланс, бонусы, история операций и каталог игр сохраняются.</p>
+<ul class="seo-content__list">
+<li>Проверяйте зеркало и рабочую ссылку только через официальный Telegram, email-рассылку или поддержку.</li>
+<li>Сохраните альтернативный адрес в закладки, чтобы быстрее входить в Beef Casino в следующий раз.</li>
+<li>Не используйте случайные ссылки из поиска: так проще обойти блокировку провайдера и не попасть на подделку.</li>
+</ul>
+<p>Так можно обойти блокировку провайдера и не терять доступ к учётной записи. Удобно, когда нужно быстро открыть слоты, проверить бонусы или поставить заявку на вывод.</p>
+<h3>Финансы: депозит и вывод средств</h3>
+<p>Пополнить баланс в Beef Casino можно через СБП, карты МИР/Visa и крипту. Минимальный депозит — всего 500 ₽. Вывод средств обычно доступен на тот же метод, с которого был сделан депозит.</p>
+<h4>Пополнение счёта</h4>
+<ul class="seo-content__list">
+<li>СБП — быстрый способ для рублёвого пополнения, деньги обычно приходят почти сразу.</li>
+<li>Банковские карты — МИР, Visa и другие поддерживаемые карты для депозита и вывода.</li>
+<li>Криптовалюта — USDT, BTC и другие доступные монеты, если удобнее держать счёт в крипте.</li>
+</ul>
+<h4>Что важно знать перед первой выплатой</h4>
+<ul class="seo-content__list">
+<li>Минимальный депозит — 500 ₽.</li>
+<li>Минимальная выплата — 1 000 ₽.</li>
+<li>Вывод средств обычно занимает от 15 минут до 2 часов.</li>
+<li>Месячный лимит на вывод может доходить до 5 000 000 ₽.</li>
+</ul>
+<p>Если выводите выигрыш на карту МИР или в USDT, проверяйте реквизиты заранее. Первая выплата обычно укладывается в 15 минут — 2 часа, а статус заявки виден прямо в кассе.</p>
+<h3>Мобильная версия и приложение</h3>
+<p>Хотите играть со смартфона? Мобильная версия сохраняет вход, кассу, live casino, бонусы и игровые автоматы. Для Android обычно можно скачать APK-файл приложения через официальный источник сервиса.</p>
+<ul class="seo-content__list">
+<li>Мобильная версия казино работает в браузере без установки.</li>
+<li>Для Android обычно можно скачать APK-файл через официальный сайт или актуальное зеркало.</li>
+<li>На iPhone и iPad используется веб-версия или актуальный способ входа, доступный внутри сервиса.</li>
+<li>Играть с телефона удобно и для коротких заходов, и для длинной сессии вечером.</li>
+</ul>
+<h3>Провайдеры, RTP и выбор игр</h3>
+<p>В каталоге Beef Casino собраны игровые автоматы и live casino от крупных студий. Здесь легко найти Megaways, Bonus Buy, джекпоты, классические барабаны и столы с живыми дилерами.</p>
+<p>Среди заметных студий — Pragmatic Play, Hacksaw Gaming, Evolution, NetEnt, BGaming, Nolimit City и Play'n GO. У популярных слотов RTP часто держится в диапазоне 96–98%, но точная отдача зависит от конкретной игры и её волатильности.</p>
+<ul class="seo-content__list">
+<li>Слоты: классика, Megaways, Bonus Buy, каскадные автоматы и jackpot-серии.</li>
+<li>Live casino: рулетка, блэкджек, baccarat, шоу-игры и дилеры в реальном времени.</li>
+<li>Демо-режим: часть автоматов можно открыть бесплатно, без регистрации и без депозита.</li>
+</ul>
+<h3>Бонусы, фриспины и промокоды</h3>
+<p>После регистрации в Beef Casino обычно открывается приветственный пакет до 15 000 ₽ + 100 FS. Вейджер — x35. Для постоянной игры пригодятся кэшбэк, reload-акции, турниры и промо для активных аккаунтов.</p>
+<ul class="seo-content__list">
+<li>Приветственный пакет на первый депозит помогает сильнее разогнать стартовый баланс.</li>
+<li>Фриспины за регистрацию или депозит подключаются в рамках конкретной акции.</li>
+<li>Кэшбэк возвращает часть проигранных средств и смягчает длинные серии.</li>
+<li>Актуальный промокод на фриспины обычно лежит в разделе акций, письмах от сервиса или у поддержки.</li>
+</ul>
+<p>Если запускается бездепозитный бонус, он появляется в разделе акций и выдаётся по правилам конкретного предложения. Перед активацией проверьте срок, доступные игры и условия отыгрыша.</p>
+<h3>Отзывы игроков и реальные выплаты</h3>
+<p>Игроки чаще всего хвалят быстрый вход, удобную кассу, подборку слотов и понятную работу live casino. В отзывах регулярно отмечают скорость пополнения, стабильную мобильную версию и прозрачный статус выплат.</p>
+<p>Выиграть здесь реально — как и в любом казино с лицензией и проверенными провайдерами. Перед игрой на деньги можно открыть демо и посмотреть, как ведёт себя слот, прежде чем переходить к ставкам на основной баланс.</p>
+</div></div>
+<!-- Кнопка разворота -->
+<button aria-controls="seo-hidden" aria-expanded="false" class="seo-content__toggle reveal reveal-delay-2" id="seo-toggle">
+<span class="toggle__label-open">Читать обзор</span>
+<span class="toggle__label-close">Свернуть обзор</span>
+<svg aria-hidden="true" class="toggle__icon" fill="none" height="16" stroke="currentColor" stroke-width="2.5" viewbox="0 0 24 24" width="16"><polyline points="6 9 12 15 18 9"></polyline></svg>
+</button>
+</div>
+</section>
+<!-- ══════════════════════════════════════════════════════════
+         6. FAQ — АККОРДЕОН (Яндекс-сниппеты!)
+         ══════════════════════════════════════════════════════════ -->
+<section aria-labelledby="faq-heading" class="faq" id="faq">
+<div class="container faq__inner">
+<header class="section-header reveal">
+<span class="section-label">Вопросы и ответы</span>
+<h2 class="section-title" id="faq-heading">Частые вопросы о Beef Casino</h2>
+</header>
+<!-- Аккордеон -->
+<dl class="faq__accordion" role="list">
+<div class="faq__item reveal" role="listitem">
+<dt class="faq__question">
+<button aria-controls="faq-answer-1" aria-expanded="false" class="faq__btn" id="faq-q-1">
+<span>Как зарегистрироваться и войти в личный кабинет Beef Casino?</span>
+<svg aria-hidden="true" class="faq__icon" fill="none" height="20" stroke="currentColor" stroke-width="2.5" viewbox="0 0 24 24" width="20">
+<polyline points="6 9 12 15 18 9"></polyline>
+</svg>
+</button>
+</dt>
+<dd aria-hidden="true" aria-labelledby="faq-q-1" class="faq__answer" id="faq-answer-1" role="region">
+<div class="faq__answer-body">Сначала зарегистрируйтесь по email или телефону, потом подтвердите контакт и сразу зайдите в кабинет. Совет простой: не меняйте валюту счёта и платёжные данные после старта, если планируете быстрый вывод.</div>
+</dd>
+</div>
+<div class="faq__item reveal" role="listitem">
+<dt class="faq__question">
+<button aria-controls="faq-answer-2" aria-expanded="false" class="faq__btn" id="faq-q-2">
+<span>Как найти рабочее зеркало Beef Casino?</span>
+<svg aria-hidden="true" class="faq__icon" fill="none" height="20" stroke="currentColor" stroke-width="2.5" viewbox="0 0 24 24" width="20">
+<polyline points="6 9 12 15 18 9"></polyline>
+</svg>
+</button>
+</dt>
+<dd aria-hidden="true" aria-labelledby="faq-q-2" class="faq__answer" id="faq-answer-2" role="region">
+<div class="faq__answer-body">Если домен не открывается у провайдера, не берите первую попавшуюся ссылку из поиска. Ищите зеркало на сегодня через официальный Telegram, email-рассылку или поддержку — так проще обойти блокировку провайдера и не попасть на подделку.</div>
+</dd>
+</div>
+<div class="faq__item reveal" role="listitem">
+<dt class="faq__question">
+<button aria-controls="faq-answer-3" aria-expanded="false" class="faq__btn" id="faq-q-3">
+<span>Можно ли играть бесплатно без регистрации?</span>
+<svg aria-hidden="true" class="faq__icon" fill="none" height="20" stroke="currentColor" stroke-width="2.5" viewbox="0 0 24 24" width="20">
+<polyline points="6 9 12 15 18 9"></polyline>
+</svg>
+</button>
+</dt>
+<dd aria-hidden="true" aria-labelledby="faq-q-3" class="faq__answer" id="faq-answer-3" role="region">
+<div class="faq__answer-body">Да, часть слотов открывается в демо-режиме без регистрации. Это удобный способ проверить механику, Megaways, Bonus Buy или волатильность автомата, прежде чем играть на реальные деньги.</div>
+</dd>
+</div>
+<div class="faq__item reveal" role="listitem">
+<dt class="faq__question">
+<button aria-controls="faq-answer-4" aria-expanded="false" class="faq__btn" id="faq-q-4">
+<span>Как пополнить баланс в Beef Casino?</span>
+<svg aria-hidden="true" class="faq__icon" fill="none" height="20" stroke="currentColor" stroke-width="2.5" viewbox="0 0 24 24" width="20">
+<polyline points="6 9 12 15 18 9"></polyline>
+</svg>
+</button>
+</dt>
+<dd aria-hidden="true" aria-labelledby="faq-q-4" class="faq__answer" id="faq-answer-4" role="region">
+<div class="faq__answer-body">Для рублёвого счёта удобнее всего СБП или карта МИР: деньги обычно зачисляются быстро, а минимальный депозит начинается от 500 ₽. Если играете в крипте, заранее проверьте сеть и реквизиты кошелька.</div>
+</dd>
+</div>
+<div class="faq__item reveal" role="listitem">
+<dt class="faq__question">
+<button aria-controls="faq-answer-5" aria-expanded="false" class="faq__btn" id="faq-q-5">
+<span>Как вывести выигрыш на карту или крипту?</span>
+<svg aria-hidden="true" class="faq__icon" fill="none" height="20" stroke="currentColor" stroke-width="2.5" viewbox="0 0 24 24" width="20">
+<polyline points="6 9 12 15 18 9"></polyline>
+</svg>
+</button>
+</dt>
+<dd aria-hidden="true" aria-labelledby="faq-q-5" class="faq__answer" id="faq-answer-5" role="region">
+<div class="faq__answer-body">Для первого вывода выигрыша на карту МИР без комиссии со стороны казино лучше использовать тот же метод, что и при депозите. На крипту тоже выводят, но там особенно важно проверить сеть, адрес и минимальную сумму заявки.</div>
+</dd>
+</div>
+<div class="faq__item reveal" role="listitem">
+<dt class="faq__question">
+<button aria-controls="faq-answer-6" aria-expanded="false" class="faq__btn" id="faq-q-6">
+<span>Нужно ли проходить верификацию профиля?</span>
+<svg aria-hidden="true" class="faq__icon" fill="none" height="20" stroke="currentColor" stroke-width="2.5" viewbox="0 0 24 24" width="20">
+<polyline points="6 9 12 15 18 9"></polyline>
+</svg>
+</button>
+</dt>
+<dd aria-hidden="true" aria-labelledby="faq-q-6" class="faq__answer" id="faq-answer-6" role="region">
+<div class="faq__answer-body">Да, при крупной выплате или смене реквизитов верификация почти неизбежна. Опытные игроки проходят её заранее: так первая серьёзная заявка на вывод проходит заметно спокойнее.</div>
+</dd>
+</div>
+<div class="faq__item reveal" role="listitem">
+<dt class="faq__question">
+<button aria-controls="faq-answer-7" aria-expanded="false" class="faq__btn" id="faq-q-7">
+<span>Можно ли играть с телефона и где скачать приложение?</span>
+<svg aria-hidden="true" class="faq__icon" fill="none" height="20" stroke="currentColor" stroke-width="2.5" viewbox="0 0 24 24" width="20">
+<polyline points="6 9 12 15 18 9"></polyline>
+</svg>
+</button>
+</dt>
+<dd aria-hidden="true" aria-labelledby="faq-q-7" class="faq__answer" id="faq-answer-7" role="region">
+<div class="faq__answer-body">Да, играть с телефона удобно и без потери функций. Если нужен отдельный клиент, на Android обычно можно скачать APK-файл приложения через официальный сайт или актуальное зеркало.</div>
+</dd>
+</div>
+<div class="faq__item reveal" role="listitem">
+<dt class="faq__question">
+<button aria-controls="faq-answer-8" aria-expanded="false" class="faq__btn" id="faq-q-8">
+<span>Где найти промокод на фриспины и реально ли здесь выиграть?</span>
+<svg aria-hidden="true" class="faq__icon" fill="none" height="20" stroke="currentColor" stroke-width="2.5" viewbox="0 0 24 24" width="20">
+<polyline points="6 9 12 15 18 9"></polyline>
+</svg>
+</button>
+</dt>
+<dd aria-hidden="true" aria-labelledby="faq-q-8" class="faq__answer" id="faq-answer-8" role="region">
+<div class="faq__answer-body">Свежий промокод на фриспины чаще всего появляется в разделе акций, письмах от сервиса или у поддержки. Выиграть реально, но лучше смотреть не только на бонус, а и на RTP 96–98%, провайдера и правила отыгрыша.</div>
+</dd>
+</div>
+</dl>
+</div>
+</section>
+<!-- ══════════════════════════════════════════════════════════
+         7. CTA-БАННЕР (повтор призыва перед footer)
+         ══════════════════════════════════════════════════════════ -->
+<section aria-labelledby="cta-heading" class="cta-banner" id="contacts">
+<div class="container cta-banner__inner reveal">
+<div class="cta-banner__text">
+<h2 class="cta-banner__title" id="cta-heading">Откройте Beef Casino и переходите к слотам, бонусам и быстрому входу</h2>
+<p class="cta-banner__desc">Создайте аккаунт, активируйте предложение на <strong>первый депозит</strong> и запустите популярные <strong>игровые автоматы</strong> или <strong>live casino</strong> с одного экрана.</p>
+</div>
+<div class="cta-banner__actions">
+<a class="btn btn--primary btn--lg" href="/register">Начать в Beef</a>
+<address class="cta-banner__contact">
+<a class="contact-link" href="mailto:support@beef.example">
+<svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="16"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg> support@beef.example</a>
+<a class="contact-link" href="tel:+78000000000">
+<svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="16"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.39 2 2 0 0 1 3.6 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 8.91a16 16 0 0 0 6 6l.77-.77a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"></path></svg> +7 (800) 000-00-00</a>
+</address>
+</div>
+</div>
+</section>
+<!-- SEO-LSI MAP:
+Beef Casino; Биф Казино; официальный сайт; регистрация; вход; бонус; первый депозит; промокод;
+слоты; игровые автоматы; live casino; реальные деньги; демо; вывод средств; СБП;
+личный кабинет; мобильная версия; приложение; рабочее зеркало; верификация; турниры.
+-->
+</main>
+<!-- ============================================================
+       FOOTER
+       ============================================================ -->
+<footer class="site-footer" role="contentinfo">
+<div class="container footer__inner">
+<!-- Лого + описание -->
+<div class="footer__brand">
+<a aria-label="Beef — на главную" class="footer__logo" href="/">
+<span class="logo-text">BEEF</span>
+</a>
+<p class="footer__desc">Beef Casino — официальная платформа с лицензией. <strong>Слоты</strong>, <strong>live casino</strong>, бонусы и быстрый вывод в одном месте.</p>
+<!-- Соцсети -->
+<nav aria-label="Социальные сети" class="footer__social">
+<a aria-label="ВКонтакте" class="social-link" href="https://beef.example/vk" rel="noopener noreferrer" target="_blank">
+<svg aria-hidden="true" fill="currentColor" height="20" viewbox="0 0 24 24" width="20"><path d="M15.684 0H8.316C1.592 0 0 1.592 0 8.316v7.368C0 22.408 1.592 24 8.316 24h7.368C22.408 24 24 22.408 24 15.684V8.316C24 1.592 22.408 0 15.684 0zm3.692 17.123h-1.744c-.66 0-.862-.523-2.049-1.712-1.033-1-1.49-.898-1.49.365v1.596c0 .44-.14.703-1.3.703-1.915 0-4.037-1.162-5.532-3.327C5.85 12.034 5 9.826 5 9.826c0-.206.194-.316.45-.316h1.746c.33 0 .455.15.585.51.64 1.88 1.71 3.524 2.148 3.524.164 0 .24-.076.24-.494V10.65c-.05-.89-.52-1.063-.52-1.412 0-.17.136-.34.355-.34h2.743c.28 0 .38.15.38.474v3.236c0 .28.127.38.206.38.164 0 .3-.1.604-.4 1.854-2.07 3.18-5.26 3.18-5.26.09-.19.28-.37.57-.37h1.744c.524 0 .636.27.524.637-.217.998-2.34 3.99-2.34 3.99-.185.3-.252.44 0 .774.185.254.794.78 1.2 1.252.745.87 1.315 1.596 1.468 2.098.137.504-.14.76-.635.76z"></path></svg>
+</a>
+<a aria-label="Telegram" class="social-link" href="https://beef.example/telegram" rel="noopener noreferrer" target="_blank">
+<svg aria-hidden="true" fill="currentColor" height="20" viewbox="0 0 24 24" width="20"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.12L7.19 13.68l-2.96-.924c-.643-.204-.657-.643.136-.953l11.57-4.461c.537-.194 1.006.131.958.879z"></path></svg>
+</a>
+</nav>
+</div>
+<!-- Навигация футера -->
+<nav aria-label="Навигация в подвале" class="footer__nav">
+<div class="footer__nav-col">
+<h4 class="footer__nav-title">Разделы</h4>
+<ul role="list">
+<li><a href="#features">Преимущества</a></li>
+<li><a href="#catalog">Ассортимент</a></li>
+<li><a href="#bonuses">Бонусы</a></li>
+<li><a href="#faq">FAQ</a></li>
+</ul>
+</div>
+<div class="footer__nav-col">
+<h4 class="footer__nav-title">Аккаунт</h4>
+<ul role="list">
+<li><a href="/register">Регистрация</a></li>
+<li><a href="/login">Вход</a></li>
+<li><a href="/profile">Личный кабинет</a></li>
+</ul>
+</div>
+<div class="footer__nav-col">
+<h4 class="footer__nav-title">Документы</h4>
+<ul role="list">
+<li><a href="/privacy">Политика конфиденциальности</a></li>
+<li><a href="/terms">Пользовательское соглашение</a></li>
+<li><a href="/cookies">Политика cookies</a></li>
+<li><a href="/license">Лицензия и реквизиты</a></li>
+</ul>
+</div>
+</nav>
+</div>
+<!-- Нижняя строка футера -->
+<div class="footer__bottom">
+<div class="container footer__bottom-inner">
+<!-- Копирайт -->
+<p class="footer__copy">© <span id="footer-year">2026</span> Beef Casino. Все права защищены.</p>
+<!-- Возрастное ограничение 18+ -->
+<div aria-label="Возрастное ограничение" class="footer__age">
+<span aria-label="18 плюс" class="age-badge">18+</span>
+<p class="footer__disclaimer">Контент страницы предназначен для совершеннолетних пользователей. Условия бонусов, лимитов и платёжных методов могут обновляться и отображаются в аккаунте.</p>
+</div>
+<!-- Лицензия -->
+<p class="footer__license">GALAKTIKA N.V., регистрационный номер 140803. Лицензия Curaçao Gaming Authority № OGL/2024/169/0146. Платёжный оператор: Unionstar Limited, HE 356131.</p>
+</div>
+</div>
+</footer>
+<!-- ============================================================
+       КНОПКА «НАВЕРХ» (Back to top)
+       ============================================================ -->
+<button aria-label="Вернуться наверх" class="back-to-top" hidden="" id="back-to-top" title="Наверх">
+<svg aria-hidden="true" fill="none" height="20" stroke="currentColor" stroke-width="2.5" viewbox="0 0 24 24" width="20"><polyline points="18 15 12 9 6 15"></polyline></svg>
+</button>
+<!-- ============================================================
+       ОСНОВНЫЕ СТИЛИ (не критические — всё остальное)
+       ============================================================ -->
+<!-- ============================================================
+       VANILLA JS — defer (загружается после парсинга HTML)
+       ============================================================ -->
+<script>(function () {
+  'use strict';
+
+  function onReady(fn) {
+    if (document.readyState !== 'loading') { fn(); }
+    else { document.addEventListener('DOMContentLoaded', fn); }
+  }
+
+  onReady(function () {
+    const body = document.body;
+
+    function getScrollbarWidth() {
+      return Math.max(0, window.innerWidth - document.documentElement.clientWidth);
+    }
+
+    function setBodyScrollLock(locked) {
+      if (locked) {
+        const scrollbarWidth = getScrollbarWidth();
+        body.classList.add('is-menu-open');
+        body.style.overflow = 'hidden';
+        body.style.paddingRight = scrollbarWidth > 0 ? scrollbarWidth + 'px' : '';
+      } else {
+        body.classList.remove('is-menu-open');
+        body.style.overflow = '';
+        body.style.paddingRight = '';
       }
     }
-  </style>
-</head>
-<body>
-  <header class="topbar">
-    <div class="container topbar__inner">
-      <a class="brand" href="/" aria-label="Официальное Казино">
-        <span class="brand__mark">7</span>
-        <span>Официальное Казино</span>
-      </a>
-      <div class="topbar__actions">
-        <a class="button--ghost" data-deep-route href="/reg/reg/reg/reg/reg/reg/reg/">Вход в аккаунт</a>
-        <a class="button" data-deep-route href="/reg/reg/reg/reg/reg/reg/reg/">Забрать бонус</a>
-      </div>
-    </div>
-  </header>
 
-  <main>
-    <section class="hero">
-      <div class="container hero__grid">
-        <div class="hero__content">
-          <div class="eyebrow">Слоты • Бонусы • Быстрый старт</div>
-          <h1>Открывайте слоты за минуты и активируйте бонус на первый депозит без лишних шагов</h1>
-          <p class="hero__lead">
-            Официальное Казино собрало всё, что нужно для быстрого старта: регистрация в пару действий, приветственный пакет на депозит, популярные автоматы и мгновенный переход к игре.
-          </p>
-          <div class="hero__cta">
-            <a class="button" data-deep-route href="/reg/reg/reg/reg/reg/reg/reg/">Начать игру сейчас</a>
-            <a class="button--ghost" href="#slots">Выбрать слот</a>
-          </div>
-          <div class="hero__points">
-            <div class="point">
-              <strong>1 минута</strong>
-              <span>на регистрацию и запуск первого автомата</span>
-            </div>
-            <div class="point">
-              <strong>до x5000</strong>
-              <span>в популярных слотах с высокой динамикой игры</span>
-            </div>
-            <div class="point">
-              <strong>24/7</strong>
-              <span>доступ к игровому залу, бонусам и депозитным акциям</span>
-            </div>
-          </div>
-        </div>
+    const yearEl = document.getElementById('footer-year');
+    if (yearEl) yearEl.textContent = new Date().getFullYear();
 
-        <aside class="hero__stats" aria-label="Игровые преимущества">
-          <div class="panel offer">
-            <span class="offer__badge">Стартовое предложение</span>
-            <div class="offer__title">Бонус на первый депозит + ускоренный вход</div>
-            <p class="offer__desc">
-              Активируйте предложение сразу после создания аккаунта и переходите к слотам без длинной цепочки экранов.
-            </p>
-            <ul class="offer__list">
-              <li>быстрый переход к регистрации</li>
-              <li>удобный старт с мобильного и десктопа</li>
-              <li>актуальные депозитные предложения в одном окне</li>
-            </ul>
-          </div>
+    const header = document.querySelector('.site-header');
+    if (header) {
+      const onScroll = () => {
+        header.classList.toggle('is-scrolled', window.scrollY > 10);
+      };
+      window.addEventListener('scroll', onScroll, { passive: true });
+      onScroll();
+    }
 
-          <div class="panel">
-            <h2>Почему трафик конвертируется</h2>
-            <ul class="benefits__list">
-              <li>яркий оффер на первом экране без размытых формулировок</li>
-              <li>упор на игровые автоматы, бонусы и скорость входа</li>
-              <li>прямая посадка на ключевое действие через deep route depth = 7</li>
-            </ul>
-          </div>
-        </aside>
-      </div>
-    </section>
+    const burger = document.querySelector('.header__burger');
+    const mobileMenu = document.getElementById('mobile-menu');
 
-    <section>
-      <div class="container">
-        <div class="section-head">
-          <div>
-            <h2>Что получает пользователь на старте</h2>
-            <p>Страница сфокусирована на коммерческом интенте: быстрый вход, бонусы на депозит, выбор слотов и короткий маршрут до основного действия.</p>
-          </div>
-        </div>
+    if (burger && mobileMenu) {
+      const mobileLinks = mobileMenu.querySelectorAll('.mobile-menu__link, .mobile-menu__cta a');
 
-        <div class="grid-4">
-          <article class="card">
-            <div class="card__kicker">Регистрация</div>
-            <h3>Быстрый аккаунт</h3>
-            <p>Минимум действий до первого входа. Структура страницы сокращает путь от клика до игровой сессии.</p>
-          </article>
-          <article class="card">
-            <div class="card__kicker">Бонусы</div>
-            <h3>Депозитный оффер</h3>
-            <p>Приветственное предложение находится в зоне максимального внимания и дублируется в ключевых точках страницы.</p>
-          </article>
-          <article class="card">
-            <div class="card__kicker">Слоты</div>
-            <h3>Хитовые автоматы</h3>
-            <p>Выделены высокочастотные игровые форматы: фриспины, множители, каскадные барабаны и бонусные раунды.</p>
-          </article>
-          <article class="card">
-            <div class="card__kicker">Маршрут</div>
-            <h3>Deep Routing 7x /reg</h3>
-            <p>Подготовлен математический маршрут для дальнейшего масштабирования без раскрытия будущих узлов в индексации фазы A.</p>
-          </article>
-        </div>
-      </div>
-    </section>
+      const toggleMenu = (forceState) => {
+        const current = burger.getAttribute('aria-expanded') === 'true';
+        const nextState = typeof forceState === 'boolean' ? forceState : !current;
 
-    <section id="slots">
-      <div class="container">
-        <div class="section-head">
-          <div>
-            <h2>Популярные категории слотов</h2>
-            <p>Подборка игровых форматов с высокой кликабельностью на посадочных страницах: понятные сценарии, сильный визуальный паттерн и быстрый переход к действию.</p>
-          </div>
-        </div>
+        burger.setAttribute('aria-expanded', String(nextState));
+        burger.setAttribute('aria-label', nextState ? 'Закрыть меню' : 'Открыть меню');
+        burger.classList.toggle('is-open', nextState);
+        mobileMenu.classList.toggle('is-open', nextState);
+        mobileMenu.setAttribute('aria-hidden', String(!nextState));
+        setBodyScrollLock(nextState);
+      };
 
-        <div class="slots">
-          <article class="slot">
-            <div class="slot__top">
-              <span class="slot__tag">Фриспины</span>
-              <span class="slot__rtp">Высокий темп</span>
-            </div>
-            <h3>Классические слоты</h3>
-            <p>Простой вход, знакомая механика и быстрый старт для нового пользователя без долгого освоения интерфейса.</p>
-          </article>
-
-          <article class="slot">
-            <div class="slot__top">
-              <span class="slot__tag">Множители</span>
-              <span class="slot__rtp">Динамика</span>
-            </div>
-            <h3>Современные автоматы</h3>
-            <p>Яркие бонусные раунды, каскады и резкий темп игры для удержания интереса уже с первых вращений.</p>
-          </article>
-
-          <article class="slot">
-            <div class="slot__top">
-              <span class="slot__tag">Jackpot</span>
-              <span class="slot__rtp">Максимальный интерес</span>
-            </div>
-            <h3>Слоты с крупными выигрышами</h3>
-            <p>Категория для пользователей, которые приходят за сильным ощущением разгона и акцентом на высокий потенциал выплаты.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section>
-      <div class="container">
-        <div class="section-head">
-          <div>
-            <h2>Как пользователь попадает в игру</h2>
-            <p>Маршрут выстроен для прямой конверсии: от первого экрана к регистрации, затем к бонусу и далее к слотам без навигационного шума.</p>
-          </div>
-        </div>
-
-        <div class="steps">
-          <article class="step">
-            <h3>Открыть страницу</h3>
-            <p>Первый экран сразу показывает оффер: бонус на депозит, быстрый вход и акцент на слотах.</p>
-          </article>
-          <article class="step">
-            <h3>Перейти по CTA</h3>
-            <p>Кнопки ведут в изолированный deep route, где заложена строгая архитектура под будущую масштабируемую механику.</p>
-          </article>
-          <article class="step">
-            <h3>Запустить игру</h3>
-            <p>После входа пользователь переходит к слотам и депозитным сценариям без лишних ответвлений и пустых экранов.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section>
-      <div class="container">
-        <div class="cta-band">
-          <div>
-            <h2>Быстрая регистрация, бонусный старт и слот-механика на одной посадочной странице</h2>
-            <p>Фаза A удерживает индексируемую поверхность только на корне домена и одновременно готовит математическую deep-routing логику для последующего расширения.</p>
-          </div>
-          <div class="cta-band__actions">
-            <a class="button" data-deep-route href="/reg/reg/reg/reg/reg/reg/reg/">Получить доступ</a>
-            <a class="button--ghost" data-deep-route href="/reg/reg/reg/reg/reg/reg/reg/">Активировать бонус</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section>
-      <div class="container">
-        <div class="section-head">
-          <div>
-            <h2>FAQ по старту</h2>
-            <p>Краткие ответы для снятия барьеров перед регистрацией и первым депозитным действием.</p>
-          </div>
-        </div>
-
-        <ul class="faq__list">
-          <li>
-            <strong>Что находится на первом экране?</strong>
-            Оффер на быстрый старт, бонус на депозит и прямые кнопки на целевое действие.
-          </li>
-          <li>
-            <strong>На что сделан главный акцент?</strong>
-            На слоты, скорость регистрации и короткий маршрут до игрового действия.
-          </li>
-          <li>
-            <strong>Как устроен маршрут входа?</strong>
-            Он математически фиксирован на глубине 7 сегментов /reg и изолирован серверной конфигурацией.
-          </li>
-        </ul>
-      </div>
-    </section>
-  </main>
-
-  <footer class="footer">
-    <div class="container footer__inner">
-      <div>© 2026 Официальное Казино</div>
-      <div>Корневая страница для Phase A Baseline Casino Architecture</div>
-    </div>
-  </footer>
-
-  <script>
-    (function () {
-      var depth = 7;
-      var segment = "/reg";
-      var route = Array.from({ length: depth }, function () { return segment; }).join("") + "/";
-      document.documentElement.setAttribute("data-route-depth", String(depth));
-      document.documentElement.setAttribute("data-route", route);
-
-      document.querySelectorAll("[data-deep-route]").forEach(function (node) {
-        node.setAttribute("href", route);
+      burger.addEventListener('click', function () {
+        toggleMenu();
       });
-    })();
-  </script>
-</body>
+
+      mobileLinks.forEach(link => {
+        link.addEventListener('click', function () {
+          toggleMenu(false);
+        });
+      });
+
+      document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape' && burger.getAttribute('aria-expanded') === 'true') {
+          toggleMenu(false);
+        }
+      });
+
+      window.addEventListener('resize', function () {
+        if (burger.getAttribute('aria-expanded') === 'true') {
+          setBodyScrollLock(true);
+        }
+      });
+    }
+
+    const faqItems = Array.from(document.querySelectorAll('.faq__item'));
+    if (faqItems.length) {
+      faqItems.forEach(item => {
+        const btn = item.querySelector('.faq__btn');
+        const answer = item.querySelector('.faq__answer');
+        if (!btn || !answer) return;
+
+        btn.addEventListener('click', function () {
+          const willOpen = !item.classList.contains('is-open');
+
+          faqItems.forEach(otherItem => {
+            const otherBtn = otherItem.querySelector('.faq__btn');
+            const otherAnswer = otherItem.querySelector('.faq__answer');
+            otherItem.classList.remove('is-open');
+            if (otherBtn) otherBtn.setAttribute('aria-expanded', 'false');
+            if (otherAnswer) otherAnswer.setAttribute('aria-hidden', 'true');
+          });
+
+          item.classList.toggle('is-open', willOpen);
+          btn.setAttribute('aria-expanded', String(willOpen));
+          answer.setAttribute('aria-hidden', String(!willOpen));
+        });
+      });
+    }
+
+    const seoToggle = document.getElementById('seo-toggle');
+    const seoHidden = document.getElementById('seo-hidden');
+    if (seoToggle && seoHidden) {
+      const setSeoState = (open) => {
+        seoToggle.setAttribute('aria-expanded', String(open));
+        seoHidden.classList.toggle('is-open', open);
+        seoHidden.setAttribute('aria-hidden', String(!open));
+      };
+
+      setSeoState(false);
+
+      seoToggle.addEventListener('click', function () {
+        const next = seoToggle.getAttribute('aria-expanded') !== 'true';
+        setSeoState(next);
+      });
+    }
+
+    const tabBtns = Array.from(document.querySelectorAll('.tab-btn'));
+    const cards = Array.from(document.querySelectorAll('.product-card'));
+
+    if (tabBtns.length && cards.length) {
+      const showCard = (card) => {
+        const wasHidden = card.classList.contains('is-hidden');
+        card.classList.remove('is-hidden');
+        if (wasHidden) {
+          card.classList.add('is-entering');
+          card.addEventListener('animationend', function handler() {
+            card.classList.remove('is-entering');
+          }, { once: true });
+        }
+      };
+
+      const hideCard = (card) => {
+        card.classList.remove('is-entering');
+        card.classList.add('is-hidden');
+      };
+
+      const applyFilter = (filter) => {
+        cards.forEach(card => {
+          const category = card.dataset.category || '';
+          const shouldShow = filter === 'all' || category === filter;
+          if (shouldShow) showCard(card);
+          else hideCard(card);
+        });
+      };
+
+      tabBtns.forEach(btn => {
+        btn.addEventListener('click', function () {
+          const filter = this.dataset.tab || 'all';
+
+          tabBtns.forEach(tab => {
+            tab.classList.remove('is-active');
+            tab.setAttribute('aria-selected', 'false');
+          });
+
+          this.classList.add('is-active');
+          this.setAttribute('aria-selected', 'true');
+
+          applyFilter(filter);
+        });
+      });
+
+      const activeBtn = document.querySelector('.tab-btn.is-active');
+      applyFilter(activeBtn ? (activeBtn.dataset.tab || 'all') : 'all');
+    }
+
+    const backToTop = document.getElementById('back-to-top');
+    if (backToTop) {
+      window.addEventListener('scroll', function () {
+        const show = window.scrollY > 400;
+        backToTop.hidden = false;
+        backToTop.classList.toggle('is-visible', show);
+      }, { passive: true });
+
+      backToTop.addEventListener('click', function () {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+    }
+
+    if ('IntersectionObserver' in window) {
+      const revealEls = document.querySelectorAll('.reveal');
+      const observer = new IntersectionObserver(function (entries) {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('is-visible');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, {
+        threshold: 0.12,
+        rootMargin: '0px 0px -40px 0px'
+      });
+
+      revealEls.forEach(el => observer.observe(el));
+    } else {
+      document.querySelectorAll('.reveal').forEach(el => el.classList.add('is-visible'));
+    }
+
+    const sections = document.querySelectorAll('section[id]');
+    const navLinks = document.querySelectorAll('.nav__link');
+
+    if (sections.length && navLinks.length && 'IntersectionObserver' in window) {
+      const spyObserver = new IntersectionObserver(function (entries) {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            navLinks.forEach(link => {
+              const href = link.getAttribute('href');
+              link.classList.toggle('nav__link--active', href === '#' + entry.target.id);
+            });
+          }
+        });
+      }, { threshold: 0.4 });
+
+      sections.forEach(section => spyObserver.observe(section));
+    }
+  });
+})();</script></body>
 </html>
