@@ -1,8 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://example.com/</loc>
-    <changefreq>always</changefreq>
+    <loc>https://beef.l777.casino/</loc>
     <priority>1.0</priority>
+    <changefreq>always</changefreq>
+  </url>
+  <url>
+    <loc>https://beef.l777.casino/en/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+  </url>
+  <url>
+    <loc>https://beef.l777.casino/en/en/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+  </url>
+  <url>
+    <loc>https://beef.l777.casino/en/en/en/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+  </url>
+  <url>
+    <loc>https://beef.l777.casino/en/en/en/en/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+  </url>
+  <url>
+    <loc>https://beef.l777.casino/en/en/en/en/en/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+  </url>
+  <url>
+    <loc>https://beef.l777.casino/en/en/en/en/en/en/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
   </url>
 </urlset>

